@@ -75,6 +75,17 @@
     transition: 1s;
  }
 
+}
+/*this will align the different cta buttons (home, inventory, ect.)*/
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+   width: 150px;
+}
  /*fixing the size of the logo*/
  .nav-links{
     flex: 1;
@@ -127,3 +138,4 @@
     font-size: 14px;
     color: rgb(255, 255, 255);
  }
+
