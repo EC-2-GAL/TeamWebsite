@@ -20,9 +20,9 @@
      }
   }
 
-
-#preloader{
-  background: rgb(77, 66, 68) url("https://giphy.com/gifs/corgi-lazy-hk-vbeNMLuswd7RR25lah") no-repeat center center;
+/*Loading Screen*/
+.loading{
+  background: rgb(242, 146, 183) url("--") no-repeat center center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -39,12 +39,14 @@
     font-family: 'Poppins', sans-serif;
     /*the second part of the font from google!!*/
  }
+
+
  /*background colors and images*/
  .header{
     min-height: 100vh;
     width: 100%;
     /*the gif adds to the moving banner on the website*/
-    background-image: linear-gradient(rgba(147, 149, 158, 0.7),rgba(147, 149, 158, 0.7)),url(images/banner.gif);
+    background-image: linear-gradient(#F0B9C5,#C48FC1),url(images/--);
     background-position: center;
     background-size: cover;
     position: relative;
