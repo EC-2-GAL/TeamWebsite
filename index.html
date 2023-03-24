@@ -15,17 +15,34 @@
             <nav>
                 <!--the logo on the header-->
                 <a href="index.html"><img src ="images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <!--the links to the other pages-->
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/page1.html">CU1</a></li>
+                        <li><a href="/page2.html">CU2</a></li>
+                        <li><a href="/page3.html">JAVA</a></li>
+                        <li><a href="/page4.html">HACKS</a></li>
+                    </ul>
+                    <!--loading screen-->
+                    <script>
+                        var loader = document.getElementById("preloader");
+                        window.addEventListener("load", function(){
+                            loader.style.display = "none";
+                        })
+                    </script>
+                </div>
             </nav>
+
+<!--Start of Website Content-->
+<div class="text-box">
+    <h1>Title</h1>
+    <p>Description</p>
+    <a href="page1.html" class="inv-btn">Button</a>
+</div>
+
         </section>
     </body>
 </html>
 
-<table>
-    <tr>
-        <td><a href="/index.html">Home</a></td>
-        <td><a href="/page1.html">Customization 1</a></td>
-        <td><a href="/page2.html">Customization 2</a></td>
-        <td><a href="/page3.html">Building JavaScript</a></td>
-        <td><a href="/page4.html">Hacks</a></td>
-    </tr>
-</table>
+
