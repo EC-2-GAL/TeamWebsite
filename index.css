@@ -1,6 +1,26 @@
 
 /*I NEED TO ORGANIZE LATER*/
 
+/*IPHONE VIEW*/
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+ }
+  /*iphone view*/
+  @media(max-width: 700px){
+     .text-box h1{
+         font-size: 20px;
+     }
+     .nav-links ul li{
+         display: block;
+     }
+  }
+
+
 #preloader{
   background: rgb(77, 66, 68) url("https://giphy.com/gifs/corgi-lazy-hk-vbeNMLuswd7RR25lah") no-repeat center center;
   background-size: cover;
@@ -31,24 +51,7 @@
  }
 
 }
-/*iphone view*/
-@media(max-width: 700px){
-   .text-box h1{
-       font-size: 20px;
-   }
-   .nav-links ul li{
-       display: block;
-   }
-}
- /*iphone view*/
- @media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
- }
+
 
  /*the inventory btn aka the 'Find Your Dream Car Today!' btn/box*/
  .inv-btn{
