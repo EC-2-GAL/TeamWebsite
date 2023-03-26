@@ -12,38 +12,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!--the header section or the top part of every page-->
-        <section class="header">
-            <nav>
-                <!--the logo on the header-->
-                <a href="home.html"><img src ="images/logo.png"></a>
-                <div class="nav-links">
-                    <ul>
-                        <!--the links to the other pages-->
-                        <li><a href="/home.html">HOME</a></li>
-                        <li><a href="/page1.html">CU1</a></li>
-                        <li><a href="/page2.html">CU2</a></li>
-                        <li><a href="/page3.html">JAVA</a></li>
-                        <li><a href="/page4.html">HACKS</a></li>
-                    </ul>
-                    <!--loading screen-->
-                    <script>
-                        var loader = document.getElementById("loading");
-                        window.addEventListener("load", function(){
-                            loader.style.display = "none";
-                        })
-                    </script>
-                </div>
-            </nav>
 
-<!--Start of Website Content-->
-<div class="text-box">
-    <h1>[EC]^2 GAL</h1>
-    <p>Description</p>
-    <a href="page1.html" class="inv-btn">Button</a>
-</div>
+        {% include home.html %}
 
-        </section>
+        <main id="content" class="main-content" role="main">
+            {{ content }}
+      
+            <footer class="site-footer">
+              {% if site.github.is_project_page %}
+                <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a></a></span>
+              {% endif %}
+      
+            </footer>
+          </main>
     </body>
 </html>
 
