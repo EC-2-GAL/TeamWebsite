@@ -20,6 +20,16 @@
      }
   }
 
+
+  .header{
+   min-height: 100vh;
+   width: 100%;
+   /*the gif adds to the moving banner on the website*/
+   background-image: linear-gradient(rgba(147, 149, 158, 0.7),rgba(147, 149, 158, 0.7)),url(images/banner.gif);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
 /*Loading Screen*/
 .loading{
   background: rgb(242, 146, 183) url("--") no-repeat center center;
@@ -75,8 +85,9 @@
     transition: 1s;
  }
 
+
 }
-/*this will align the different cta buttons (home, inventory, ect.)*/
+/*this will align the different buttons (home, inventory, ect.)*/
 nav{
    display: flex;
    padding: 2% 6%;
@@ -91,20 +102,20 @@ nav img{
     flex: 1;
     text-align: right;
  }
- /*the ul and li are basically the list/cta buttons on the top of the page*/
+ /*the ul and li are basically the list/buttons on the top of the page*/
  .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
  }
- /*color and removing the underlining of cta buttons aka the animation :)*/
+ /*color and removing the underlining of buttons aka the animation :)*/
  .nav-links ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 13px;
  }
- /*underline for the cta buttons*/
+ /*underline for the buttons*/
  .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -114,7 +125,7 @@ nav img{
     margin: auto;
     transition: 0.5s;
  }
- /*the cta button underline is only seen with cursor on it*/
+ /*the button underline is only seen with cursor on it*/
  .nav-links ul li:hover::after{
     width: 100%;
  }
@@ -139,5 +150,46 @@ nav img{
     color: rgb(255, 255, 255);
  }
 
+/*buttons*/
+.team{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px;
+}
 
+h1{
+   font-size: 36px;
+   font-weight: 600;
+}
+p{
+   color: rgb(61, 56, 56);
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+}
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-evenly;
+}
+/*box around descriptions*/
+.team-col{
+   flex-basis: 23%;
+   background: rgb(255, 255, 255);
+   border-radius: 10px;
+   margin-bottom: 5%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+}
+h3{
+   text-align: center;
+   font-weight: 600;
+   margin: 10px;
+}
+/*hover effect*/
+.team-col:hover{
+   box-shadow: 0 0 20px rgba(89, 0, 255, 0.2);
+}
 
