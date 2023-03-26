@@ -62,31 +62,6 @@
     position: relative;
  }
 
-}
-
-
- /*the inventory btn aka the 'Find Your Dream Car Today!' btn/box*/
- .inv-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
- }
-
- /*when the inv-btn is hovered by the cursor then there will be a different color, this is similar to the underline of the cta buttons*/
- .inv-btn:hover{
-    border: 1px solid rgb(237, 173, 184);
-    background: rgb(217, 182, 239);
-    transition: 1s;
- }
-
-
-}
 /*this will align the different buttons (home, inventory, ect.)*/
 nav{
    display: flex;
