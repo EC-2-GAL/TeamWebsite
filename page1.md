@@ -17,8 +17,6 @@ Layout: This refers to the arrangement and positioning of UI elements such as bu
 <br><br>
 Icons: These are small graphical symbols used to represent actions or ideas in the UI.
 <br><br>
-Animations: These are dynamic effects used to enhance the user experience, such as hover effects, transitions, and scrolling.
-<br><br>
 Interactivity: This refers to how the UI responds to user actions, such as clicking, tapping, dragging, and scrolling.
 <br><br>
 Accessibility: This refers to the ability of the UI to be used by people with disabilities, such as support for screen readers, keyboard navigation, and color contrast.
