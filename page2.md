@@ -9,3 +9,6 @@
     <div class="lesson">
     <h2>Light and Night Mode</h2>
     <p>blah</p>
+    <div class="lesson">
+    <h2>Animations</h2>
+    <p>blah</p>
