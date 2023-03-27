@@ -1,0 +1,30 @@
+body {
+    background-color: #F0B9C5;
+  }
+  
+  h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+  }
+  
+  p {
+    color: rgb(255, 255, 255);
+  }
+  
+  .column {
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  h2 {
+    background-color: #FDE0CA;
+    padding: 5px;
+    color: #6E70AC
+
+  }
+  
+  h1 {
+    color: #6E70AC;
+
+  }
+  
