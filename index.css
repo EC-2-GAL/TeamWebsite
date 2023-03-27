@@ -3,25 +3,25 @@
 
 /*IPHONE VIEW*/
 @media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
- }
-  /*iphone view*/
-  @media(max-width: 700px){
-     .text-box h1{
+   .text-box h1{
+      font-size: 20px;
+   }
+   .nav-links ul li{
+      display: block;
+   }
+}
+/*iphone view*/
+@media(max-width: 700px){
+   .text-box h1{
          font-size: 20px;
-     }
-     .nav-links ul li{
+   }
+   .nav-links ul li{
          display: block;
-     }
-  }
+   }
+}
 
-
-  .header{
+/*HEADER of the website*/
+.header{
    min-height: 100vh;
    width: 100%;
    /*the gif adds to the moving banner on the website*/
@@ -32,35 +32,35 @@
 }
 /*Loading Screen*/
 .loading{
-  background: rgb(242, 146, 183) url("--") no-repeat center center;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  position: fixed;
+background: rgb(242, 146, 183) no-repeat center center;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+top: 0;
+left: 0;
+position: fixed;
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    /*can be applied to all of the html elements*/
-    /*FIX THE FONT FAMILY TO THE REAL ONE OR CHOSEN ONE*/
-    font-family: 'Poppins', sans-serif;
-    /*the second part of the font from google!!*/
- }
+   margin: 0;
+   padding: 0;
+/*can be applied to all of the html elements*/
+/*FIX THE FONT FAMILY TO THE REAL ONE OR CHOSEN ONE*/
+   font-family: 'Poppins', sans-serif;
+/*the second part of the font from google!!*/
+}
 
 
- /*background colors and images*/
- .header{
-    min-height: 100vh;
-    width: 100%;
-    /*the gif adds to the moving banner on the website*/
-    background-image: linear-gradient(#F0B9C5,#C48FC1),url(images/--);
-    background-position: center;
-    background-size: cover;
-    position: relative;
- }
+/*BACKGROUND colors and images*/
+.header{
+   min-height: 100vh;
+   width: 100%;
+/*linear gradient is how the background goes from the pink to the purple*/
+   background-image: linear-gradient(#F0B9C5,#C48FC1);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
 
 /*this will align the different buttons (home, inventory, ect.)*/
 nav{
@@ -72,58 +72,58 @@ nav{
 nav img{
    width: 150px;
 }
- /*fixing the size of the logo*/
- .nav-links{
-    flex: 1;
-    text-align: right;
- }
- /*the ul and li are basically the list/buttons on the top of the page*/
- .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
- }
- /*color and removing the underlining of buttons aka the animation :)*/
- .nav-links ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 13px;
- }
- /*underline for the buttons*/
- .nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: rgb(77, 66, 68);
-    display: block;
-    margin: auto;
-    transition: 0.5s;
- }
- /*the button underline is only seen with cursor on it*/
- .nav-links ul li:hover::after{
-    width: 100%;
- }
- /*to make the text into the center of the website*/
- .text-box{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
- }
- /*title size*/
- .text-box h1{
-    font-size:62px;
- }
- /*size of the text under the title and the text color*/
- .text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
- }
+/*fixing the size of the logo*/
+.nav-links{
+   flex: 1;
+   text-align: right;
+}
+/*the ul and li are basically the list/buttons on the top of the page*/
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+/*color and removing the underlining of buttons aka the animation :)*/
+.nav-links ul li a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 13px;
+}
+/*underline for the buttons*/
+.nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: rgb(77, 66, 68);
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+/*the button underline is only seen with cursor on it*/
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+/*to make the text into the center of the website*/
+.text-box{
+   width: 90%;
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+/*title size*/
+.text-box h1{
+   font-size:62px;
+}
+/*size of the text under the title and the text color*/
+.text-box p{
+   margin: 10px 0 40px;
+   font-size: 14px;
+   color: rgb(255, 255, 255);
+}
 
 /*buttons*/
 .team{
@@ -148,7 +148,9 @@ p{
    margin-top: 5%;
    display: flex;
    justify-content: space-evenly;
+   padding-bottom: 10px;
 }
+
 /*box around descriptions*/
 .team-col{
    flex-basis: 23%;
