@@ -14,7 +14,16 @@ X and Y axis:
 Light and Dark mode:
 <br><br>
 Animations: These are dynamic effects used to enhance the user experience, such as hover effects, transitions, and scrolling.
-<br>
+<br><br>
+Grid: Grid is another layout system that allows you to define complex layouts using rows and columns. With grid, you can define the size and position of your elements with great precision. It offers properties such as grid-template-columns, grid-template-rows, grid-gap, and many others.
+<br><br>
+Transitions: Transitions allow you to create smooth animations when a property changes. For example, you can create a transition when a button is hovered over, so that the color of the button changes smoothly. You can control the duration, delay, and easing of the transition.
+<br><br>
+Transformations: Transformations allow you to modify the shape, size, and position of elements. You can rotate, scale, skew, and translate elements with transformations. You can also combine transformations to create more complex effects.
+<br><br>
+Animations: Animations allow you to create complex and dynamic effects by combining multiple transitions and transformations. You can control the timing and duration of each animation step, and create keyframes to define the intermediate states of an animation.
+<br><br>
+<br><br>
 </p>
 </div>
 <div class="column">
