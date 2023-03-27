@@ -1,7 +1,7 @@
 <!--Start of Website Content-->
-<div class="text-box">
+<div class="index-header">
     <h1>[EC]^2 GAL</h1>
-    <p>Description</p>
+    <p>Lesson on User Interface (UI) and Java</p>
 </div>
 
 

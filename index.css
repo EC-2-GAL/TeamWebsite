@@ -20,16 +20,6 @@
    }
 }
 
-/*HEADER of the website*/
-.header{
-   min-height: 100vh;
-   width: 100%;
-   /*the gif adds to the moving banner on the website*/
-   background-image: linear-gradient(rgba(147, 149, 158, 0.7),rgba(147, 149, 158, 0.7)),url(images/banner.gif);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-}
 /*Loading Screen*/
 .loading{
 background: rgb(242, 146, 183) no-repeat center center;
@@ -56,10 +46,24 @@ position: fixed;
    min-height: 10vh;
    width: 100%;
 /*linear gradient is how the background goes from the pink to the purple*/
+   background-color: #F0B9C5;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+.index-header{
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom: 250px;
+/*linear gradient is how the background goes from the pink to the purple*/
    background-image: linear-gradient(#F0B9C5,#C48FC1);
    background-position: center;
    background-size: cover;
    position: relative;
+   color: white;
 }
 
 /*this will align the different buttons (home, inventory, ect.)*/
@@ -105,25 +109,6 @@ nav img{
    width: 100%;
 }
 /*to make the text into the center of the website*/
-.text-box{
-   width: 90%;
-   color: #fff;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   text-align: center;
-}
-/*title size*/
-.text-box h1{
-   font-size:62px;
-}
-/*size of the text under the title and the text color*/
-.text-box p{
-   margin: 10px 0 40px;
-   font-size: 14px;
-   color: rgb(255, 255, 255);
-}
 
 /*buttons*/
 .team{
@@ -134,13 +119,12 @@ nav img{
 }
 
 h1{
-   font-size: 36px;
+   font-size: 60px;
    font-weight: 600;
 }
 p{
-   color: rgb(61, 56, 56);
-   font-size: 14px;
-   font-weight: 300;
+   font-size: 18px;
+   font-weight: 200;
    line-height: 22px;
    padding: 10px;
 }
