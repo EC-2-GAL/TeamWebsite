@@ -28,3 +28,17 @@ Learning these concepts can greatly improve the design of your own interface</p>
 <section class="">
 <h3>Analyze UI Design Elements</h3>
 
+<p>Key elements of UI design</p>
+
+<p>Micro-interactions:
+Animations:
+Visual Feedback:</p>
+
+<p>Here are some examples of interfaces that has used these elements listed above effectively [LINK](https://www apple.com/store afid=p238%7CseIEs444j-dc_mtid_1870765e38482_pcrid_649686730713_pgrid_13945964887_pntwk_g_pchan__pexid__&cid=aos-us-kwgo-brand-apple--slid---product-) LINK LINK</p>
+<!--ask students 'how effective are these examples and point to some of the elements shown on the interfaces'-->
+
+
+
+
+
+
