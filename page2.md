@@ -4,14 +4,17 @@
     </head>
     <body>
 <section class="">
+<!--Description of what customization 2 might be like and the topics that will be covered-->
 <h1>Customization Lesson 2</h1>
 <d>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</d>
 </section>
 
+<!--Title of the whole lesson-->
 <section class="">
 <h2>Advanced UI Designs</h2>
 </section>
 
+<!--Introduction to the lesson part 1-->
 <section class="">
 <h3>Introduction</h3>
 <p>The goal of advanced UI design makes interfaces that are easy to navigate and allow users to access information and features easily. 
@@ -25,17 +28,25 @@ Navigation is important since it can have impact on user satisfaction and retent
 Learning these concepts can greatly improve the design of your own interface</p>
 </section>
 
+
 <section class="">
 <h3>Analyze UI Design Elements</h3>
 
 <p>Key elements of UI design</p>
 
-<p>Micro-interactions:
-Animations:
+<p>Micro-interactions: Small, preferably functional animations that support the user by giving visual feedback and displaying changes more clearly.
+Examples: Preloader, Chat bots, Celebratory Gifs
+Animations: Technique used to bring still images to life by creating illusion of motion through series of images displayed in rapid succession
+Examples:
 Visual Feedback:</p>
 
 <p>Here are some examples of interfaces that has used these elements listed above effectively [LINK](https://www apple.com/store afid=p238%7CseIEs444j-dc_mtid_1870765e38482_pcrid_649686730713_pgrid_13945964887_pntwk_g_pchan__pexid__&cid=aos-us-kwgo-brand-apple--slid---product-) LINK LINK</p>
 <!--ask students 'how effective are these examples and point to some of the elements shown on the interfaces'-->
+</section>
+
+</section class="">
+<h3>Animations Through Code</h3>
+<p>Now that we analyzed some of the elements of UI, lets go over
 
 
 
