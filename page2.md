@@ -44,9 +44,17 @@ Visual Feedback:</p>
 <!--ask students 'how effective are these examples and point to some of the elements shown on the interfaces'-->
 </section>
 
-</section class="">
+
+<!--Introduction to the second part of the lesson-->
+<section class="">
 <h3>Animations Through Code</h3>
-<p>Now that we analyzed some of the elements of UI, lets go over
+<p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
+<!--Animations can be created through code and students will be learning how to code basic animation-->
+</section>
+
+<section class="">
+<h3>HTML, CSS, and JavaScript</h3>
+<p>    </p>
 
 
 
