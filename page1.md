@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page1.css">
     </head>
     <body>
         <div class="row">

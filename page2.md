@@ -1,55 +1,30 @@
 <html>
     <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page2.css">
     </head>
     <body>
-        <div class="row">
-    <h1>More Advanced UI Properties</h1>
-    </div>
-    <div class="column">
-    <h2>Properties:</h2>
-    <p>
-X and Y axis: 
-<br><br>
-Light and Dark mode:
-<br><br>
-Animations: These are dynamic effects used to enhance the user experience, such as hover effects, transitions, and scrolling.
-<br>
-</p>
-</div>
-<div class="column">
-    <h2>Changing Background Color</h2>
-</div>
-    <div class="row">
-    <h1>Adding/Changing Colors</h1>
-    </div>
-<div class="column">
-    <h2>Changing Color of text</h2>
-</div>
-<div class="column">
-    <h2>Changing Background Color</h2>
-</div>
-    <div class="row">
-    <h1>Themes</h1>
-    </div>
-<div class="column">
-    <h2>...</h2>
-</div>
-    <div class="row">
-    <h1>Images</h1>
-    </div>
-<div class="column">
-    <h2>Data Compression<h2>
-<div class="column">
-    <h2>PIL</h2>
-</div>
-<div class="column">
-    <h2>numpy</h2>
-</div>
-<div class="column">
-    <h2>base 64</h2>
-</div>
-<div class="column">
-    <h2>io</h2>
-</div>
+<section class="">
+<h1>Customization Lesson 2</h1>
+<d>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</d>
+</section>
+
+<section class="">
+<h2>Advanced UI Designs</h2>
+</section>
+
+<section class="">
+<h3>Introduction</h3>
+<p>The goal of advanced UI design makes interfaces that are easy to navigate and allow users to access information and features easily. 
+
+Modern applications are complex and advanced today and uses an array of features and functions. It is important to create an easy to understand so users can quickly navigate the interface.
+
+The interfaces will be used through a variety of devices: phones, desktops, laptops, tablets, ect. Meaning the interfaces have to be responsive to these screen sizes and orientations.
+
+Navigation is important since it can have impact on user satisfaction and retention. Users are more likely to use an application if they are able to navigate and it meets their needs effectively. This can lead to high ratings, reviews, and in some cases increase revenue.
+
+Learning these concepts can greatly improve the design of your own interface</p>
+</section>
+
+<section class="">
+<h3>Analyze UI Design Elements</h3>
 
