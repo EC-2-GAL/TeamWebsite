@@ -3,8 +3,8 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="row">
-    <h1>Basic User Interface (UI) Properties</h1>
+    <div class="row">
+        <h1>Basic User Interface (UI) Properties</h1>
     </div>
     <div class="column">
     <h2>Properties:</h2>
@@ -25,9 +25,6 @@ Accessibility: This refers to the ability of the UI to be used by people with di
 <br>
 </p>
 </div>
-<div class="column">
-    <h2>Changing Background Color</h2>
-</div>
     <div class="row">
     <h1>Adding/Changing Colors</h1>
     </div>
@@ -47,16 +44,21 @@ Accessibility: This refers to the ability of the UI to be used by people with di
     <h1>Images</h1>
     </div>
 <div class="column">
-    <h2>Data Compression<h2>
+    <h2>Data Compression</h2>
+</div>
+
 <div class="column">
     <h2>PIL</h2>
 </div>
+
 <div class="column">
     <h2>numpy</h2>
 </div>
+
 <div class="column">
     <h2>base 64</h2>
 </div>
+
 <div class="column">
     <h2>io</h2>
 </div>

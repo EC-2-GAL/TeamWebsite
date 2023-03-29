@@ -8,12 +8,15 @@ body {
   }
   
   p {
-    color: rgb(255, 255, 255);
+    color: rgb(110, 112, 172);
   }
   
   .column {
-    border: 5px solid rgb(255, 255, 255);
-    padding: 10px;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 100px;
+    width: 1500px;
+    padding: 50px;
   }
   
   h2 {
@@ -24,7 +27,7 @@ body {
   }
   
   h1 {
-    color: #6E70AC;
+    color: rgb(110, 112, 172);
 
   }
   
