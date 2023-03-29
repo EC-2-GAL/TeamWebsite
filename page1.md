@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page1.css">
     </head>
     <body>
     <div class="row">
@@ -16,8 +16,6 @@ Font: This refers to the typeface, size, weight, and style of the text displayed
 Layout: This refers to the arrangement and positioning of UI elements such as buttons, text boxes, images, etc.
 <br><br>
 Icons: These are small graphical symbols used to represent actions or ideas in the UI.
-<br><br>
-Animations: These are dynamic effects used to enhance the user experience, such as hover effects, transitions, and scrolling.
 <br><br>
 Interactivity: This refers to how the UI responds to user actions, such as clicking, tapping, dragging, and scrolling.
 <br><br>

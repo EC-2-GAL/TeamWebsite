@@ -27,7 +27,7 @@
         </div>
     </div>
 </section>
-<section class="team">
+<section class="team1">
 <div class="row">
     <div class="team-col">
         <h1><a href="https://github.com/ClaireChen3"><img src ="images/team/clairec.png"></a></h1>
