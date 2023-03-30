@@ -147,6 +147,25 @@ Linear algebra: NumPy includes a range of linear algebra functions, including ma
 
 <div class="column">
     <h2>base 64</h2>
+        <p>
+Binary data: Base64 is used to encode binary data, such as images, audio, and video files. You will need to understand how binary data is represented and stored in computing systems.
+
+
+<br><br>
+ASCII encoding: Base64 converts binary data into ASCII text format, which can be transmitted and stored more easily than binary data. You will need to understand ASCII encoding and how it works.
+
+
+<br><br>
+Encoding process: Base64 encodes binary data by splitting it into 6-bit chunks and encoding each chunk as a single character in the Base64 character set. You will need to understand how this encoding process works.
+
+
+<br><br>
+Decoding process: Base64 also includes a decoding process that converts Base64-encoded text back into binary data. You will need to understand how this decoding process works.
+
+<br><br>
+Applications: Base64 is used in many applications, including email attachments, image and video uploads on websites, and data transmission over HTTP. You will need to understand how Base64 is used in these applications.
+<br>
+</p>
 </div>
 
 <div class="column">
