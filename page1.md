@@ -85,8 +85,20 @@ Configuration files: Some applications and platforms may have configuration file
     </div>
 <div class="column">
     <h2>Data Compression</h2>
-</div>
+    <p>
+Data representation: Before compressing data, you will need to understand how data is represented and stored. This includes knowledge of data types, encoding, and file formats.
+<br><br>
+Lossy vs. lossless compression: There are two main types of data compression: lossy and lossless. Lossy compression sacrifices some amount of data fidelity to achieve higher compression ratios, while lossless compression preserves all the data without loss but typically achieves lower compression ratios.
+<br><br>
+Compression algorithms: There are many compression algorithms available, including Huffman coding, Lempel-Ziv-Welch (LZW) compression, and Run-Length Encoding (RLE), each with their own strengths and weaknesses.
+<br><br>
+Compression formats: Many file formats support compression, such as ZIP, GZIP, and TAR. Each format may use a different algorithm and have different compression and decompression tools available.
+<br><br>
+Performance and trade-offs: The performance of compression algorithms and formats can vary greatly depending on the type of data being compressed, the amount of compression desired, and the resources available for compression and decompression. There are often trade-offs between compression ratio, compression and decompression speed, and resource requirements.
+<br>
+</p>
 
+</div>
 <div class="column">
     <h2>PIL</h2>
 </div>
