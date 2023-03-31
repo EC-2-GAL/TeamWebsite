@@ -3,23 +3,26 @@
     <link rel="stylesheet" href="page1.css">
     </head>
     <body>
+<h3><img src ="images/fav.png"></h3>
     <div class="row">
         <h1>Basic User Interface (UI) Properties</h1>
     </div>
     <div class="column">
     <h2>Properties:</h2>
     <p>
-Color: This refers to the hue, saturation, and brightness of the UI elements such as background, text, buttons, etc.
+<ul>
+<li>Color: This refers to the hue, saturation, and brightness of the UI elements such as background, text, buttons, etc.</li>
 <br><br>
-Font: This refers to the typeface, size, weight, and style of the text displayed on the UI.
+<li>Font: This refers to the typeface, size, weight, and style of the text displayed on the UI.</li>
 <br><br>
-Layout: This refers to the arrangement and positioning of UI elements such as buttons, text boxes, images, etc.
+<li>Layout: This refers to the arrangement and positioning of UI elements such as buttons, text boxes, images, etc</li>
 <br><br>
-Icons: These are small graphical symbols used to represent actions or ideas in the UI.
+<li>Icons: These are small graphical symbols used to represent actions or ideas in the UI.</li>
 <br><br>
-Interactivity: This refers to how the UI responds to user actions, such as clicking, tapping, dragging, and scrolling.
+<li>Interactivity: This refers to how the UI responds to user actions, such as clicking, tapping, dragging, and scrolling.</li>
 <br><br>
-Accessibility: This refers to the ability of the UI to be used by people with disabilities, such as support for screen readers, keyboard navigation, and color contrast.
+<li>Accessibility: This refers to the ability of the UI to be used by people with disabilities, such as support for screen readers, keyboard navigation, and color contrast.</li>
+</ul>
 <br>
 </p>
 </div>
@@ -64,8 +67,7 @@ HTML structure: To change the background color in HTML, you will need to underst
 
 </div>
  <div class="column">
-    <h1>Themes</h1>
-     <h2></h2>
+    <h2>Themes</h2>
 <p>
 Programming languages: Depending on the platform or application you are using, you may need to know how to write code in a programming language that supports theme customization. For example, if you are working with a web application, you may need to know HTML, CSS, and JavaScript.
 <br><br>
