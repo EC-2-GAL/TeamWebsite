@@ -11,3 +11,7 @@ p {
     color: #9674Af
 }
 
+img {
+    max-width: 20%;
+    height: 20%;
+  }
