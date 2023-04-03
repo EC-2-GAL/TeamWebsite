@@ -65,6 +65,25 @@
 
 
 
+<div class="container">
+  <img src="images/taylorswiftimage.png" alt="Taylor Swift" class="image">
+</div>
 
-
-
+<head>
+  <style>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.image {
+  width: 600px;
+  height: 200px;
+  transition: transform 1s ease;
+}
+.image:hover {
+  transform: rotate(360deg);
+}
+  </style>
+</head>
