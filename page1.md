@@ -5,9 +5,9 @@
     <body>
 <h3><img src ="images/fav.png"></h3>
     <div class="row">
-        <h1>Basic User Interface (UI) Properties</h1>
+    <button onclick="visibility()">Basic User Interface (UI) Properties</button>
     </div>
-    <div class="column">
+    <div class="column" id="column1">
     <h2>Properties:</h2>
     <p>
 <ul>
@@ -27,9 +27,9 @@
 </p>
 </div>
     <div class="row">
-    <h1>Adding/Changing Colors</h1>
+    <button onclick="visibility2()">Adding/Changing Colors</button>
     </div>
-<div class="column">
+<div class="column" id="column2">
     <h2>Changing Color of text:</h2>
     <p>
 Programming languages: To change the color of text, you will need to know how to write code in a programming language that supports text formatting. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
@@ -43,10 +43,7 @@ CSS syntax: If you are using CSS to change the color of text, you will need to k
 HTML structure: To change the color of text in HTML, you will need to understand the basic structure of an HTML document and how to add styles to individual elements using inline styles or external style sheets.
 <br>
 </p>
-    
-</div>
-<div class="column">
-    <h2>Changing Background Color</h2>
+<h2>Changing Background Color</h2>
  <p>
 Programming languages: To change the background color, you will need to know how to write code in a programming language that supports styles and layout. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
 
@@ -64,10 +61,7 @@ HTML structure: To change the background color in HTML, you will need to underst
 
 <br>
 </p>
-
-</div>
- <div class="column">
-    <h2>Themes</h2>
+<h2>Themes</h2>
 <p>
 Programming languages: Depending on the platform or application you are using, you may need to know how to write code in a programming language that supports theme customization. For example, if you are working with a web application, you may need to know HTML, CSS, and JavaScript.
 <br><br>
@@ -80,12 +74,11 @@ Stylesheets: To change the visual appearance of an application or platform, you 
 Configuration files: Some applications and platforms may have configuration files that control the behavior and appearance of the application. To change the theme, you may need to modify these configuration files.
 <br>
 </p>
-
 </div>
   <div class="row">
-    <h1>Images</h1>
-    </div>
-<div class="column">
+<button onclick="visibility3()">Images</button>
+</div>
+<div class="column" id="column3">
     <h2>Data Compression</h2>
     <p>
 Data representation: Before compressing data, you will need to understand how data is represented and stored. This includes knowledge of data types, encoding, and file formats.
@@ -99,11 +92,8 @@ Compression formats: Many file formats support compression, such as ZIP, GZIP, a
 Performance and trade-offs: The performance of compression algorithms and formats can vary greatly depending on the type of data being compressed, the amount of compression desired, and the resources available for compression and decompression. There are often trade-offs between compression ratio, compression and decompression speed, and resource requirements.
 <br>
 </p>
-
-</div>
-<div class="column">
-    <h2>PIL</h2>
-   <p>
+<h2>PIL</h2>
+<p>
 Python: PIL is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
 
 <br><br>
@@ -121,9 +111,6 @@ Image analysis: PIL can also be used for image analysis tasks, such as image seg
 
 <br>
 </p>
-
-</div>
-<div class="column">
     <h2>numpy</h2>
     <p>
 Python: NumPy is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
@@ -144,12 +131,8 @@ Broadcasting: NumPy provides a powerful feature called broadcasting, which allow
 Linear algebra: NumPy includes a range of linear algebra functions, including matrix multiplication, decomposition, and eigenvector calculation.
 <br>
 </p>
-
-</div>
-
-<div class="column">
-    <h2>base 64</h2>
-        <p>
+<h2>base 64</h2>
+<p>
 Binary data: Base64 is used to encode binary data, such as images, audio, and video files. You will need to understand how binary data is represented and stored in computing systems.
 
 
@@ -168,11 +151,8 @@ Decoding process: Base64 also includes a decoding process that converts Base64-e
 Applications: Base64 is used in many applications, including email attachments, image and video uploads on websites, and data transmission over HTTP. You will need to understand how Base64 is used in these applications.
 <br>
 </p>
-</div>
-
-<div class="column">
-    <h2>io</h2>
-    <p>
+<h2>io</h2>
+<p>
 Python: The io module is part of the Python standard library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
 
 
@@ -197,4 +177,47 @@ Error handling: The io module provides tools for handling errors that may occur 
 <br>
 </p>
 </div>
-
+<script>
+var visibility = (function() {
+  var first = true;
+  return function() {
+    first ? showComm() : hideComm();
+    first = !first;
+  }
+})();
+hideComm();
+  function hideComm(){
+document.getElementById("column1").style.visibility = "hidden";
+}
+    function showComm() {
+  document.getElementById("column1").style.visibility = "";
+}
+var visibility2 = (function() {
+  var first = true;
+  return function() {
+    first ? showComm2() : hideComm2();
+    first = !first;
+  }
+})();
+hideComm2();
+  function hideComm2(){
+document.getElementById("column2").style.visibility = "hidden";
+}
+    function showComm2() {
+  document.getElementById("column2").style.visibility = "";
+}
+var visibility3 = (function() {
+  var first = true;
+  return function() {
+    first ? showComm3() : hideComm3();
+    first = !first;
+  }
+})();
+hideComm3();
+  function hideComm3(){
+document.getElementById("column3").style.visibility = "hidden";
+}
+    function showComm3() {
+  document.getElementById("column3").style.visibility = "";
+}
+</script>
