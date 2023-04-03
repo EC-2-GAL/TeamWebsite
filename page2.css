@@ -14,7 +14,7 @@ body {
 
 div {
     background-color: #9674AF;
-    border: 5px solid white;
+    border: 5px solid #56B1EE;
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
@@ -37,4 +37,18 @@ img {
 
 .column {
     background-color: #ffb668
+}
+
+h1 {
+    color: #F3DB6F
+}
+
+h2 {
+    background-color: #F3DB6F
+}
+
+h3 {
+    color: #56B1EE;
+    font-family: 'Ubuntu';
+    font-size: 24px;
 }
