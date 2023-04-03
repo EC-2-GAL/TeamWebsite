@@ -13,13 +13,8 @@ body {
   }
 
 div {
-<<<<<<< HEAD
     background-color: #C0AFE2;
     border: 5px solid #56B1EE;
-=======
-    background-color: #9674AF;
-    /* border: 5px solid #56B1EE; */
->>>>>>> e1f02f2 (super cool box)
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
@@ -89,3 +84,6 @@ h3 {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
+
+
+  

@@ -37,6 +37,7 @@
     </div>
     <h1>Examples of Animations</h1>
     <div class="box"></div>
+</div>
 </body>
 
 
