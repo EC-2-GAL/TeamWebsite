@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="page1.css">
     </head>
     <body>
+<button id="dark" onclick="myFunction()">Dark Mode</button>
 <h3><img src ="images/fav.png"></h3>
     <div class="row">
     <button onclick="visibility()">Basic User Interface (UI) Properties</button>
@@ -219,5 +220,9 @@ document.getElementById("column3").style.visibility = "hidden";
 }
     function showComm3() {
   document.getElementById("column3").style.visibility = "";
+}
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
 </script>
