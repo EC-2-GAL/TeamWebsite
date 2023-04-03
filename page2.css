@@ -13,8 +13,13 @@ body {
   }
 
 div {
+<<<<<<< HEAD
     background-color: #C0AFE2;
     border: 5px solid #56B1EE;
+=======
+    background-color: #9674AF;
+    /* border: 5px solid #56B1EE; */
+>>>>>>> e1f02f2 (super cool box)
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
@@ -52,3 +57,35 @@ h3 {
     font-family: 'Ubuntu';
     font-size: 24px;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #F39895;
+    position: relative;
+  }
+
+@keyframes example {
+0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(200px);
+    background-color: #75be61;
+}
+100% {
+    transform: translateX(0);
+    background-color: #F39895;
+}
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #F39895;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }

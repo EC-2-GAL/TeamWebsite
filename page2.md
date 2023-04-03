@@ -35,6 +35,8 @@
     <div>
         <h3>HTML, CSS, and JavaScript</h3>
     </div>
+    <h1>Examples of Animations</h1>
+    <div class="box"></div>
 </body>
 
 
