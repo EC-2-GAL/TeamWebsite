@@ -1,15 +1,37 @@
+/* Color Codes:
+Blue: #56B1EE
+Yellow: #F3DB6F
+Orange: #FFB668
+Pink: #F39895
+Purple: #9674AF */
+
+
 body {
-    background-color: #f3db6f
-}
+    background-color: #F0B9C5;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+div {
+    background-color: #9674AF;
+    border: 5px solid white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+  }
 
 h1, h2 {
     font-family: 'Ubuntu';
     font-size: 24px;
+<<<<<<< HEAD
     background-color: #56b1ee
+=======
+    color: #FFB668
+>>>>>>> ee5192e (CU2 colors)
 }
 
 p {
-    color: #9674Af
+    color: white
 }
 
 img {
