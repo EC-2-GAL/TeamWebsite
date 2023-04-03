@@ -1,68 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="snake.css">
+    </head>
 <style>
+body{
+}
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+}
+canvas{
+    display: none;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #FFFFFF;
+    background-color: red;
+}
+canvas:focus{
+    outline: none;
+}
+/* All screens style */
+#gameover p, #setting p, #menu p{
+    font-size: 20px;
+}
 
-    body{
-    }
-    .wrap{
-        margin-left: auto;
-        margin-right: auto;
-    }
+#gameover a, #setting a, #menu a{
+    font-size: 30px;
+    display: block;
+}
 
-    canvas{
-        display: none;
-        border-style: solid;
-        border-width: 10px;
-        border-color: #FFFFFF;
-    }
-    canvas:focus{
-        outline: none;
-    }
+#gameover a:hover, #setting a:hover, #menu a:hover{
+    cursor: pointer;
+}
 
-    /* All screens style */
-    #gameover p, #setting p, #menu p{
-        font-size: 20px;
-    }
+#gameover a:hover::before, #setting a:hover::before, #menu a:hover::before{
+    content: ">";
+    margin-right: 10px;
+}
 
-    #gameover a, #setting a, #menu a{
-        font-size: 30px;
-        display: block;
-    }
+#menu{
+    display: block;
+}
 
-    #gameover a:hover, #setting a:hover, #menu a:hover{
-        cursor: pointer;
-    }
+#gameover{
+    display: none;
+}
 
-    #gameover a:hover::before, #setting a:hover::before, #menu a:hover::before{
-        content: ">";
-        margin-right: 10px;
-    }
+#setting{
+    display: none;
+}
 
-    #menu{
-        display: block;
-    }
+#setting input{
+    display:none;
+}
 
-    #gameover{
-        display: none;
-    }
+#setting label{
+    cursor: pointer;
+}
 
-    #setting{
-        display: none;
-    }
+#setting input:checked + label{
+    background-color: #FFF;
+    color: #000;
+}
 
-    #setting input{
-        display:none;
-    }
-
-    #setting label{
-        cursor: pointer;
-    }
-
-    #setting input:checked + label{
-        background-color: #FFF;
-        color: #000;
-    }
+#snake {
+    background-color: red;
+}
 </style>
-
-
 <div class="container">
     <header>
         <p>Snake score: <span id="score_value">0</span></p>
@@ -81,7 +85,7 @@
             <a id="setting_menu1" class="link-alert">settings</a>
         </div>
         <!-- Play Screen -->
-        <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
+        <canvas id="snake" class="wrap" width="320" height="320" tabindex="1" style="background-color: red;"></canvas>
         <!-- Settings Screen -->
         <div id="setting" class="py-4 text-light">
             <p>Settings Screen, press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
@@ -104,7 +108,7 @@
         </div>
     </div>
 </div>
-
+</html>
 <script>
     (function(){
         /* Attributes of Game */
