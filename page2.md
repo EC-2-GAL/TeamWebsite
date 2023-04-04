@@ -38,6 +38,8 @@
     <div class="column">
         <h1>Examples of Animations</h1>
         <br>
+        <div class="box"></div>
+        <br>
         <p>See Taylor Swift Spin!</p>
         <br>
         <br>

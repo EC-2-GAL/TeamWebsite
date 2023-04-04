@@ -65,31 +65,24 @@ h3 {
     font-size: 24px;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: #F39895;
-    position: relative;
-  }
-
 @keyframes example {
 0% {
     transform: translateX(0);
 }
 50% {
     transform: translateX(200px);
-    background-color: #75be61;
+    background-color: #CAF0F8;
 }
 100% {
     transform: translateX(0);
-    background-color: #F39895;
+    background-color: #023E8A;
 }
 }
 
 .box {
     width: 100px;
     height: 100px;
-    background-color: #F39895;
+    background-color: #023E8A;
     position: relative;
     animation-name: example;
     animation-duration: 3s;
