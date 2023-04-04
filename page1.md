@@ -66,11 +66,12 @@ HTML structure: To change the background color in HTML, you will need to underst
 </p>
 <h2>Themes</h2>
 <p>
-Programming languages: Depending on the platform or application you are using, you may need to know how to write code in a programming language that supports theme customization. For example, if you are working with a web application, you may need to know HTML, CSS, and JavaScript.
+1. Create a file called /assets/css/style.scss in your site
+
 <br><br>
-User interface design: To create a custom theme, you will need to have a basic understanding of user interface design principles. This includes understanding how to choose colors, typography, and layout to create an aesthetically pleasing and functional design.
+2. Add the following content to the top of the file, exactly as shown: 
 <br><br>
-Theming frameworks: Many applications and platforms have theming frameworks that simplify the process of creating custom themes. For example, Bootstrap is a popular theming framework for web applications that provides a set of pre-defined styles and components.
+3. Add any custom CSS (or Sass, including imports) you’d like immediately after the @import line
 <br><br>
 Stylesheets: To change the visual appearance of an application or platform, you may need to modify the stylesheets that control the presentation of the user interface elements. This may involve editing existing styles or creating new ones.
 <br><br>

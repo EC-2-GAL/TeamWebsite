@@ -63,6 +63,10 @@ img {
   }
 }
 
+.rotate {
+  animation: roll 2s linear infinite;
+}
+
 button {
   background-color: #F0B9C5;
   font-family: 'Ubuntu';
@@ -91,3 +95,5 @@ button {
   width: 200px;
   height: 50px;
 }
+
+
