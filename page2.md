@@ -3,13 +3,13 @@
     <link rel="stylesheet" href="page2.css">
     </head>
     <body>
-    <div>
+    <div class="column">
         <!--Description of what customization 2 might be like and the topics that will be covered-->
         <h1>Customization Lesson 2</h1>
         <br>
         <p>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</p>
     </div>
-    <div>
+    <div class="column">
         <h1>Introduction </h1>
         <br>
         <p>The goal of advanced UI design makes interfaces that are easy to navigate and allow users to access information and features easily. 
@@ -18,7 +18,7 @@
         Navigation is important since it can have impact on user satisfaction and retention. Users are more likely to use an application if they are able to navigate and it meets their needs effectively. This can lead to high ratings, reviews, and in some cases increase revenue.
         Learning these concepts can greatly improve the design of your own interface</p>
     </div>
-    <div>
+    <div class="column">
         <h1>Analyze UI Design Elements</h1>
         <p>Key elements of UI design</p>
         <p>Micro-interactions: Small, preferably functional animations that support the user by giving visual feedback and displaying changes more clearly.
@@ -28,14 +28,14 @@
         Visual Feedback:</p>
         <p>Here are some examples of interfaces that has used these elements listed above effectively [LINK] LINK LINK</p>
     </div>
-    <div>
+    <div class="column">
         <h1>Animations Through Code</h1>
         <p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
     </div>
-    <div>
+    <div class="column">
         <h1>HTML, CSS, and JavaScript</h1>
     </div>
-    <div>
+    <div class="column">
         <h1>Examples of Animations</h1>
         <br>
         <p>See Taylor Swift Spin!</p>
