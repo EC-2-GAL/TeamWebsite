@@ -35,55 +35,13 @@
     <div>
         <h1>HTML, CSS, and JavaScript</h1>
     </div>
-    <h1>Examples of Animations</h1>
-    <div class="box"></div>
+    <div>
+        <h1>Examples of Animations</h1>
+        <br>
+        <p>See Taylor Swift Spin!</p>
+        <br>
+        <br>
+        <img src="images/taylorswiftimage.png" alt="Taylor Swift" class="image">
+    </div>
 
 </body>
-
-
-<!--Title of the whole lesson-->
-<section class="">
-<h2>Advanced UI Designs</h2>
-</section>
-
-<!--Introduction to the lesson part 1-->
-
-
-
-
-
-<!--Introduction to the second part of the lesson-->
-<section class="">
-<h3>Animations Through Code</h3>
-<p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
-<!--Animations can be created through code and students will be learning how to code basic animation-->
-</section>
-
-<section class="">
-<h3>HTML, CSS, and JavaScript</h3>
-<p>    </p>
-
-
-
-<div class="container">
-  <img src="images/taylorswiftimage.png" alt="Taylor Swift" class="image">
-</div>
-
-<head>
-  <style>
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-}
-.image {
-  width: 600px;
-  height: 200px;
-  transition: transform 1s ease;
-}
-.image:hover {
-  transform: rotate(360deg);
-}
-  </style>
-</head>
