@@ -29,11 +29,11 @@
         <p>Here are some examples of interfaces that has used these elements listed above effectively [LINK] LINK LINK</p>
     </div>
     <div>
-        <h3>Animations Through Code</h3>
+        <h1>Animations Through Code</h1>
         <p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
     </div>
     <div>
-        <h3>HTML, CSS, and JavaScript</h3>
+        <h1>HTML, CSS, and JavaScript</h1>
     </div>
     <h1>Examples of Animations</h1>
     <div class="box"></div>
