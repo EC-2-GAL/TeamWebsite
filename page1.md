@@ -1,10 +1,12 @@
 <html>
     <head>
     <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
-<button id="dark" onclick="myFunction()">Dark Mode</button>
-<h3><img src ="images/fav.png"></h3>
+<button id="dark" onclick="darkMode()">Dark Mode</button>
+<h3><img id= "rotate" src ="images/fav.png"></h3>
+<h4><i class="material-icons">favorite</i>click on each topic to learn more!<i class="material-icons">favorite</i></h4>
     <div class="row">
     <button onclick="visibility()">Basic User Interface (UI) Properties</button>
     </div>
@@ -182,46 +184,46 @@ Error handling: The io module provides tools for handling errors that may occur 
 var visibility = (function() {
   var first = true;
   return function() {
-    first ? showComm() : hideComm();
+    first ? showColumn() : hideColumn();
     first = !first;
   }
 })();
-hideComm();
-  function hideComm(){
+hideColumn();
+  function hideColumn(){
 document.getElementById("column1").style.visibility = "hidden";
 }
-    function showComm() {
+    function showColumn() {
   document.getElementById("column1").style.visibility = "";
 }
 var visibility2 = (function() {
   var first = true;
   return function() {
-    first ? showComm2() : hideComm2();
+    first ? showColumn2() : hideColumn2();
     first = !first;
   }
 })();
-hideComm2();
-  function hideComm2(){
+hideColumn2();
+  function hideColumn2(){
 document.getElementById("column2").style.visibility = "hidden";
 }
-    function showComm2() {
+    function showColumn2() {
   document.getElementById("column2").style.visibility = "";
 }
 var visibility3 = (function() {
   var first = true;
   return function() {
-    first ? showComm3() : hideComm3();
+    first ? showColumn3() : hideColumn3();
     first = !first;
   }
 })();
-hideComm3();
-  function hideComm3(){
+hideColumn3();
+  function hideColumn3(){
 document.getElementById("column3").style.visibility = "hidden";
 }
-    function showComm3() {
+    function showColumn3() {
   document.getElementById("column3").style.visibility = "";
 }
-function myFunction() {
+function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
