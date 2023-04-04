@@ -5,15 +5,25 @@ Orange: #FFB668
 Pink: #F39895
 Purple: #9674AF */
 
+.header{
+    min-height: 10vh;
+    width: 100%;
+ /*linear gradient is how the background goes from the pink to the purple*/
+    background-color: #CAF0F8;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+
 
 body {
-    background-color: #F0B9C5;
+    background-color: #CAF0F8;
     padding-right: 50px;
     padding-left: 50px;
   }
 
 div {
-    background-color: #C0AFE2;
+    background-color: #48CAE4;
     border: 5px solid #56B1EE;
     padding: 50px;
     margin: 20px;
@@ -84,6 +94,5 @@ h3 {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
-
 
   
