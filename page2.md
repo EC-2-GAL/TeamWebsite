@@ -1,3 +1,5 @@
+<!-- for reference: https://www.w3schools.com/css/css3_animations.asp -->
+
 <html>
     <head>
     <link rel="stylesheet" href="page2.css">
