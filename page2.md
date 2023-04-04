@@ -7,10 +7,10 @@
         <!--Description of what customization 2 might be like and the topics that will be covered-->
         <h1>Customization Lesson 2</h1>
         <br>
-        <d>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</d>
+        <p>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</p>
     </div>
     <div>
-        <h3>Introduction</h3>
+        <h1>Introduction </h1>
         <br>
         <p>The goal of advanced UI design makes interfaces that are easy to navigate and allow users to access information and features easily. 
         Modern applications are complex and advanced today and uses an array of features and functions. It is important to create an easy to understand so users can quickly navigate the interface.
@@ -19,7 +19,7 @@
         Learning these concepts can greatly improve the design of your own interface</p>
     </div>
     <div>
-        <h3>Analyze UI Design Elements</h3>
+        <h1>Analyze UI Design Elements</h1>
         <p>Key elements of UI design</p>
         <p>Micro-interactions: Small, preferably functional animations that support the user by giving visual feedback and displaying changes more clearly.
         Examples: Preloader, Chat bots, Celebratory Gifs

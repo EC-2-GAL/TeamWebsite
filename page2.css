@@ -8,7 +8,6 @@ Purple: #9674AF */
 .header{
     min-height: 10vh;
     width: 100%;
- /*linear gradient is how the background goes from the pink to the purple*/
     background-color: #CAF0F8;
     background-position: center;
     background-size: cover;
@@ -23,21 +22,29 @@ body {
   }
 
 div {
-    background-color: #48CAE4;
-    border: 5px solid #56B1EE;
+    background-image: linear-gradient(180deg, #48CAE4, #90E0EF);
+    /* background-color: #48CAE4; */
+    border: 5px solid white;
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
   }
 
-h1, h2 {
+h1 {
+    font-family: 'Ubuntu';
+    text-shadow: 2px 2px #0096c7;
+    font-size: 30px;
+    color: white
+}
+
+h2 {
     font-family: 'Ubuntu';
     font-size: 24px;
-    color: #FFB668
+    color: #CAF0F8
 }
 
 p {
-    color: white
+    color: #023E8A
 }
 
 img {
@@ -49,16 +56,9 @@ img {
     background-color: #ffb668
 }
 
-h1 {
-    color: #F3DB6F
-}
-
-h2 {
-    background-color: #F3DB6F
-}
 
 h3 {
-    color: #56B1EE;
+    color: #CAF0F8;
     font-family: 'Ubuntu';
     font-size: 24px;
 }
