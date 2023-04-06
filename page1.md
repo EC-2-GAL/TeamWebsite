@@ -181,6 +181,13 @@ Error handling: The io module provides tools for handling errors that may occur 
 <br>
 </p>
 </div>
+    <div class="row">
+    <button onclick="visibility()">Importance of Wireframes</button>
+    </div>
+    <div class="column" id="column1">
+    <h2>Properties:</h2>
+<img src ="images/Page1WF.jpg">
+</div>
 <script>
 var visibility = (function() {
   var first = true;
