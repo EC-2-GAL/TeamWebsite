@@ -184,7 +184,7 @@ Error handling: The io module provides tools for handling errors that may occur 
     <div class="row">
     <button onclick="visibility()">Importance of Wireframes</button>
     </div>
-    <div class="column" id="column1">
+    <div class="column" id="column4">
     <h2>Properties:</h2>
 <img src ="images/Page1WF.jpg">
 </div>
@@ -230,6 +230,20 @@ document.getElementById("column3").style.visibility = "hidden";
 }
     function showColumn3() {
   document.getElementById("column3").style.visibility = "";
+}
+var visibility4 = (function() {
+  var first = true;
+  return function() {
+    first ? showColumn4() : hideColumn4();
+    first = !first;
+  }
+})();
+hideColumn4();
+  function hideColumn4(){
+document.getElementById("column4").style.visibility = "hidden";
+}
+    function showColumn4() {
+  document.getElementById("column4").style.visibility = "";
 }
 function darkMode() {
   var element = document.body;

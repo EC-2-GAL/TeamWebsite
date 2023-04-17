@@ -54,15 +54,6 @@ img {
   animation-direction: alternate;
 }
 
-@keyframes roll {
-  from {
-    transform: rotate(-30deg);
-  }
-  to {
-    transform: rotate(30deg);
-  }
-}
-
 .rotate {
   animation: roll 2s linear infinite;
 }
