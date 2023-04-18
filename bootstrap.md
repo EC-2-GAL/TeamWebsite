@@ -76,3 +76,101 @@
   </div>
 </div>
 
+<div class="container">
+  <h2>Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p> 
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+<h2>Images</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>.img-rounded class</p>
+      <img src="images/taylorswiftimage.png" class="img-rounded" width="400" 
+     height="300">
+    </div>
+    <div class="col-sm-5">
+      <p>.img-circle class</p>
+      <img src="images/taylorswiftimage.png" class="img-circle" width="400" 
+     height="300">
+    </div>
+    <div class="col-sm-5">
+      <p>.img-circle class</p>
+      <img src="images/taylorswiftimage.png" class="img-thumbnail" width="400" 
+     height="300">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<h2>Cool Alerts</h2>
+  <div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> Indicates a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> Indicates a warning that might need attention.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+  </div>
+<div>
+
+<div class="container">
+<h2>Carousel<h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/ts1.png" alt="Los Angeles">
+      </div>
+      <div class="item">
+        <img src="images/ts2.png" alt="Chicago">
+      </div>
+      <div class="item">
+        <img src="images/ts3.png" alt="New York">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div>
