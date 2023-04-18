@@ -89,19 +89,19 @@
     </thead>
     <tbody>
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>Grace</td>
+        <td>Wang</td>
+        <td>gracewang@gmail.com</td>
       </tr>
       <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+        <td>Luna</td>
+        <td>Iwazaki</td>
+        <td>lunaiwazaki@gmail.com</td>
       </tr>
       <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+        <td>Claire</td>
+        <td>Zhao</td>
+        <td>clairezhao@gmail.com</td>
       </tr>
     </tbody>
   </table>
