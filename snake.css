@@ -1,8 +1,7 @@
 html, body {
-    height: 100%;
   }
   body {
-    background: white;
+    background: linear-gradient(lightblue,white);
     align-items: center;
     justify-content: center;
   }
@@ -69,4 +68,14 @@ html, body {
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
+  }
+  h1 {
+    font-size: 40px;
+    padding:15px;
+  }
+  img {
+    padding: 15px;
+  }
+  h4 {
+    padding: 15px;
   }
