@@ -1,5 +1,4 @@
 <html>
-    <!-- <link rel="stylesheet" href="page2.css"> -->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,15 +9,31 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1>Customization Lesson 2</h1>
-  <p>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</p> 
+  <h1>Bootstrap</h1>
+  <p>Open source CSS framework and using Bootstrap to develop frontend</p> 
 </div>
 
+
+
 <div class="container">
-    <p>The goal of advanced UI design makes interfaces that are easy to navigate and allow users to access information and features easily.</p> 
-    <p>It is important to create an  <b>easy to understand </b> so users can <b>quickly navigate </b> the interface. The interfaces will be used through a variety of devices: phones, desktops, laptops, tablets, etc. Meaning the interfaces have to be responsive to these screen sizes and orientations.</p> 
-    <p> <b>Navigation</b> is important since it can have impact on user satisfaction and retention. Users are more likely to use an application if they are able to navigate and it meets their needs effectively. This can lead to high ratings, reviews, and in some cases increase revenue.
-    Learning these concepts can greatly improve the design of your own interface</p>
+    <p>Bootstrap is a free <b> open source CSS framework </b> that allows us to develop fast responsive front end for our website.</p>
+</div>
+
+<br>
+
+<div class="container">
+    <h2>Getting Started</h2>
+    <p>There are 2 ways to get started with Bootstrap</p>
+    <p><b>1. Bootstrap CDN</b></p>
+    <!-- CSS -->
+    <p>Copy paste the stylesheet into &lt;head&gt; to load all css</p>
+      <pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"&gt;</code></pre>
+    <p>Many components require JavaScript pluggins such as jQuery, Popper,js to function. Put this in a &lt;body&gt; tag</p>
+      <pre><code>&lt;script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
+      <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
+      <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
+    <p><b>2. Downloading Source Files</b></p>
+    <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">See this website for more information!!!</a>
 </div>
 
 <div class="container">
