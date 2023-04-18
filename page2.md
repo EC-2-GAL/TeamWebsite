@@ -9,7 +9,13 @@
         <!--Description of what customization 2 might be like and the topics that will be covered-->
         <h1>Customization Lesson 2</h1>
         <br>
-        <p>In this lesson we will be covering more advanced UI, night and light mode, and Animation in code</p>
+        <p>In this lesson we will be covering more advanced UI, Animation in code, and using open source CSS frameworks</p>
+    </div>
+   <!-- make css for button -->
+    <div>
+        <form action="http://127.0.0.1:4000/bootstrap.html">
+            <button type="submit">Click me</button>
+        </form>
     </div>
     <div class="column">
         <h1>Introduction </h1>
