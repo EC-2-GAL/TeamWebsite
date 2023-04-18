@@ -1,14 +1,69 @@
 <html>
 <head>
-  <title>Basic Snake HTML Game</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="snake.css">
+  <title>Snake Game</title>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white; background-color:gold;
+  }
+  #p1
+  {
+    color:red;
+	position:absolute;
+	left:100px;
+	top:10px;
+  }
+    #p2
+  {
+    color:red;
+	position:absolute;
+	left:100px;
+	top:30px;
+  }
+  #score
+  {
+    color:yellow;
+    position:absolute;
+	left:155px;
+	top:10px;
+  }
+  #high
+  {
+    color:yellow;
+    position:absolute;
+	  left:195px;
+	  top:30px;
+  }
+  #btn_stop
+  {
+    color:brown;
+    position:absolute;
+	  left:100px;
+	  top:80px;
+  }
+  #end_msg
+  {
+    color:brown;
+    position:absolute;
+	  left:100px;
+	  top:100px;
+  }
+  </style>
 </head>
 <body>
 <p id="p1">SCORE:</p>
-<p id="score"></p>
 <p id="p2">HIGHSCORE:</p>
+<p id="score"></p>
 <p id="high"></p>
 <button id="btn_stop" >Stop Snake Game</button>
 <p id="end_msg"></p>
@@ -16,13 +71,13 @@
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
-var root = document.querySelector(':root');
-// the canvas width & height, snake x & y, and the apple x & y, all need to be a multiples of the grid size in order for collision detection to work
-// (e.g. 16 * 25 = 400)
 var grid = 16;
 var count = 0;
 var score=0;
 //reading  last score value 
+if(localStorage.score){
+  document.getElementById('score').innerHTML=localStorage.score; 
+}
 var max=0;  
 var snake = {
   x: 160,
@@ -48,7 +103,7 @@ function getRandomInt(min, max) {
 function loop() {
   requestAnimationFrame(loop);
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 6) {
+  if (++count < 10) {
     return;
   }
   count = 0;
@@ -77,52 +132,53 @@ function loop() {
     snake.cells.pop();
   }
   // draw apple
-  apple_color = getComputedStyle(root).getPropertyValue('--apple');
-  context.fillStyle = apple_color;
+  context.fillStyle = 'red';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
   // draw snake one cell at a time
-  context.fillStyle = getComputedStyle(root).getPropertyValue('--snake');
+  context.fillStyle = 'green';
   snake.cells.forEach(function(cell, index) {
     // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
-    context.fillRect(cell.x, cell.y, grid-1, grid-1);
+    context.fillRect(cell.x, cell.y, grid-1, grid-1);  
     // snake ate apple
     if (cell.x === apple.x && cell.y === apple.y) {
       snake.maxCells++;
-      score+=1;
-      //saving score for next playing.
-      //localStorage.setItem('score',score);
-      //max=score;
-      document.getElementById('score').innerHTML=score;
-      // canvas is 400x400 which is 25x25 grids
+	  score+=1;
+    //saving score for next playing.
+    localStorage.setItem('score',score);
+	  //max=score;
+	  document.getElementById('score').innerHTML=score;
+      // canvas is 400x400 which is 25x25 grids 
       apple.x = getRandomInt(0, 25) * grid;
       apple.y = getRandomInt(0, 25) * grid;
     }
     // check collision with all cells after this one (modified bubble sort)
-    for (var i = index + 1; i < snake.cells.length; i++) {
+    for (var i = index + 1; i < snake.cells.length; i++)
+	{
       // snake occupies same space as a body part. reset game
-      if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
-        if(score>max)
-	      {
-	       max=score;
-	      }
-        snake.x = 160;
+      if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) 
+	 { 
+	    if(score>max)
+	    {
+	     max=score;
+	    }
+    	snake.x = 160;
         snake.y = 160;
         snake.cells = [];
         snake.maxCells = 4;
         snake.dx = grid;
         snake.dy = 0;
-        score = 0;
-        document.getElementById('score').innerHTML=score;
+		//score=0;
         apple.x = getRandomInt(0, 25) * grid;
         apple.y = getRandomInt(0, 25) * grid;
-        document.getElementById('high').innerHTML=max;
+	    document.getElementById('high').innerHTML=max;
       }
     }
-  });
+  }  
+  );  
 }
 // listen to keyboard events to move the snake
 document.addEventListener('keydown', function(e) {
-  // prevent snake from backtracking on itself by checking that it's
+  // prevent snake from backtracking on itself by checking that it's 
   // not already moving on the same axis (pressing left while moving
   // left won't do anything, and pressing right while moving left
   // shouldn't let you collide with your own body)
@@ -156,7 +212,7 @@ function myFunction() {
 //stop playing
 $(document).ready(function(){
 		$('#btn_stop').click(function(){
-      document.getElementById('end_msg').innerHTML="Game stopped" ;
+      document.getElementById('end_msg').innerHTML="Game stoped by player" ;
       setTimeout(myFunction, 1000);	
 		});
 	});
