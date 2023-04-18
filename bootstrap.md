@@ -19,6 +19,15 @@
     <p>Bootstrap is a free <b> open source CSS framework </b> that allows us to develop fast responsive front end for our website.</p>
 </div>
 
+<div class="container">
+    <h2>Why use Bootstrap</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Browser Support − It is supported by all popular browsers.o</li>
+      <li class="list-group-item">Bootstrap's responsive CSS adjusts to Desktops, Tablets and Mobiles.</li>
+      <li class="list-group-item">Maintaining consistency among projects when using multiple developer teams</li>
+    </ul>
+</div>
+
 <br>
 
 <div class="container">
@@ -37,22 +46,33 @@
     <p><b>2. Downloading Source Files</b></p>
 </div>
 
+<div class="jumbotron text-center">
+  <h1>Key Components of Bootstrap</h1>
+</div>
+
+<div class="container">
+  <h1>Heading1</h1>
+  <h2>Heading2</h2>
+  <h3>Heading3</h3>
+  <h4>Heading4</h4>
+  <h5>Heading5</h5>
+  <h6>Heading6</h6>
+</div>
+
+
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-sm-5">
+      <h3>Grid Classes</h3>
+      <p>xs- for phones or screens less than 768px</p>
+      <p>sm- for tablets or screens equal to or greater than 768px wide</p>
+      <p>md- for small laptops greater than 992px wide</p>
+      <p>lg- for laptops greater than 1200px wide</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-sm-5">
+      <h3>Basic Structure of Bootstrap Grid</h3>
+      <img src ="images/bootstrap_grid.png">
     </div>
   </div>
 </div>
+
