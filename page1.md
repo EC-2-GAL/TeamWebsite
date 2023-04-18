@@ -1,10 +1,12 @@
 <html>
     <head>
     <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
-<button id="dark" onclick="myFunction()">Dark Mode</button>
-<h3><img src ="images/fav.png"></h3>
+<button id="dark" onclick="darkMode()">Dark Mode</button>
+<h3><img id= "rotate" src ="images/fav.png"></h3>
+<h4><i class="material-icons">favorite</i>click on each topic to learn more!<i class="material-icons">favorite</i></h4>
     <div class="row">
     <button onclick="visibility()">Basic User Interface (UI) Properties</button>
     </div>
@@ -64,11 +66,12 @@ HTML structure: To change the background color in HTML, you will need to underst
 </p>
 <h2>Themes</h2>
 <p>
-Programming languages: Depending on the platform or application you are using, you may need to know how to write code in a programming language that supports theme customization. For example, if you are working with a web application, you may need to know HTML, CSS, and JavaScript.
+1. Create a file called /assets/css/style.scss in your site
+
 <br><br>
-User interface design: To create a custom theme, you will need to have a basic understanding of user interface design principles. This includes understanding how to choose colors, typography, and layout to create an aesthetically pleasing and functional design.
+2. Add the following content to the top of the file, exactly as shown: 
 <br><br>
-Theming frameworks: Many applications and platforms have theming frameworks that simplify the process of creating custom themes. For example, Bootstrap is a popular theming framework for web applications that provides a set of pre-defined styles and components.
+3. Add any custom CSS (or Sass, including imports) you’d like immediately after the @import line
 <br><br>
 Stylesheets: To change the visual appearance of an application or platform, you may need to modify the stylesheets that control the presentation of the user interface elements. This may involve editing existing styles or creating new ones.
 <br><br>
@@ -178,50 +181,71 @@ Error handling: The io module provides tools for handling errors that may occur 
 <br>
 </p>
 </div>
+    <div class="row">
+    <button onclick="visibility()">Importance of Wireframes</button>
+    </div>
+    <div class="column" id="column4">
+    <h2>Properties:</h2>
+<img src ="images/Page1WF.jpg">
+</div>
 <script>
 var visibility = (function() {
   var first = true;
   return function() {
-    first ? showComm() : hideComm();
+    first ? showColumn() : hideColumn();
     first = !first;
   }
 })();
-hideComm();
-  function hideComm(){
+hideColumn();
+  function hideColumn(){
 document.getElementById("column1").style.visibility = "hidden";
 }
-    function showComm() {
+    function showColumn() {
   document.getElementById("column1").style.visibility = "";
 }
 var visibility2 = (function() {
   var first = true;
   return function() {
-    first ? showComm2() : hideComm2();
+    first ? showColumn2() : hideColumn2();
     first = !first;
   }
 })();
-hideComm2();
-  function hideComm2(){
+hideColumn2();
+  function hideColumn2(){
 document.getElementById("column2").style.visibility = "hidden";
 }
-    function showComm2() {
+    function showColumn2() {
   document.getElementById("column2").style.visibility = "";
 }
 var visibility3 = (function() {
   var first = true;
   return function() {
-    first ? showComm3() : hideComm3();
+    first ? showColumn3() : hideColumn3();
     first = !first;
   }
 })();
-hideComm3();
-  function hideComm3(){
+hideColumn3();
+  function hideColumn3(){
 document.getElementById("column3").style.visibility = "hidden";
 }
-    function showComm3() {
+    function showColumn3() {
   document.getElementById("column3").style.visibility = "";
 }
-function myFunction() {
+var visibility4 = (function() {
+  var first = true;
+  return function() {
+    first ? showColumn4() : hideColumn4();
+    first = !first;
+  }
+})();
+hideColumn4();
+  function hideColumn4(){
+document.getElementById("column4").style.visibility = "hidden";
+}
+    function showColumn4() {
+  document.getElementById("column4").style.visibility = "";
+}
+function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
