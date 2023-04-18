@@ -96,45 +96,6 @@ Compression formats: Many file formats support compression, such as ZIP, GZIP, a
 Performance and trade-offs: The performance of compression algorithms and formats can vary greatly depending on the type of data being compressed, the amount of compression desired, and the resources available for compression and decompression. There are often trade-offs between compression ratio, compression and decompression speed, and resource requirements.
 <br>
 </p>
-<h2>PIL</h2>
-<p>
-Python: PIL is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
-
-<br><br>
-Image processing: PIL provides a range of image processing functions, including resizing, cropping, rotation, and color adjustments. To use PIL effectively, you will need to understand these functions and how to apply them to images.
-
-<br><br>
-Image formats: PIL supports many image formats, including JPEG, PNG, BMP, and GIF. You will need to understand how to load and save images in these formats using PIL.
-
-<br><br>
-Compression formats: Many file formats support compression, such as ZIP, GZIP, and TAR. Each format may use a different algorithm and have different compression and decompression tools available.
-<br><br>
-Image manipulation: PIL provides tools for manipulating images pixel by pixel. To use these tools effectively, you will need to understand image data representation, including color channels, pixel depth, and image dimensions.
-<br><br>
-Image analysis: PIL can also be used for image analysis tasks, such as image segmentation and feature detection. To use PIL for these tasks, you will need to understand image processing algorithms and techniques.
-
-<br>
-</p>
-    <h2>numpy</h2>
-    <p>
-Python: NumPy is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
-
-
-<br><br>
-Arrays: NumPy provides powerful tools for working with arrays, including creating arrays, indexing and slicing arrays, and performing operations on arrays.
-
-
-<br><br>
-Data types: NumPy supports a wide range of data types, including integers, floats, and complex numbers, with various precision levels.
-
-
-<br><br>
-Broadcasting: NumPy provides a powerful feature called broadcasting, which allows arrays with different shapes to be combined in arithmetic operations.
-
-<br><br>
-Linear algebra: NumPy includes a range of linear algebra functions, including matrix multiplication, decomposition, and eigenvector calculation.
-<br>
-</p>
 <h2>base 64</h2>
 <p>
 Binary data: Base64 is used to encode binary data, such as images, audio, and video files. You will need to understand how binary data is represented and stored in computing systems.
