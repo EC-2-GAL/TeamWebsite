@@ -7,7 +7,7 @@ body {
 h4 {
   font-family: 'Ubuntu';
   font-size: 24px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -77,14 +77,12 @@ button {
 #dark {
   background-color: black;
   font-family: 'Ubuntu';
-  margin-left: 1600px;
+  margin-left: 1200px;
   font-weight: bold;
   font-size: 20px;
   color: #FDE0CA;
   border-radius: 80px;
   border-color: white;
-  width: 200px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
 }
-
-
