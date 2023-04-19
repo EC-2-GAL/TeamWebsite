@@ -53,6 +53,10 @@ HTML structure: To change the color of text in HTML, you will need to understand
 
 <br><br>
 2. Add the following content to the top of the file, exactly as shown: 
+
+<img src ="images/themecode.png">
+
+
 <br><br>
 3. Add any custom CSS (or Sass, including imports) you’d like immediately after the @import line
 <br><br>
