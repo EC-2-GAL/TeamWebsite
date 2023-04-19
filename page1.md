@@ -16,8 +16,12 @@
 <ul>
 <li>Color: This refers to the hue, saturation, and brightness of the UI elements such as background, text, buttons, etc.</li>
 <br><br>
+<p>Resources: https://htmlcolorcodes.com/</p>
+<img src ="images/css4.jpg">
 <li>Font: This refers to the typeface, size, weight, and style of the text displayed on the UI.</li>
 <br><br>
+<p>Resources: https://www.w3schools.com/css/css_font.asp</p>
+<img src ="images/css3.jpg">
 <li>Layout: This refers to the arrangement and positioning of UI elements such as buttons, text boxes, images, etc</li>
 <br><br>
 <li>Icons: These are small graphical symbols used to represent actions or ideas in the UI.</li>
@@ -50,7 +54,6 @@ HTML structure: To change the color of text in HTML, you will need to understand
 <h2>Themes</h2>
 <p>
 1. Create a file called /assets/css/style.scss in your site
-
 <br><br>
 2. Add the following content to the top of the file, exactly as shown: 
 <br><br>
