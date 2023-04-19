@@ -26,6 +26,7 @@
 <br><br>
 <li>Accessibility: This refers to the ability of the UI to be used by people with disabilities, such as support for screen readers, keyboard navigation, and color contrast.</li>
 </ul>
+<p>Identify all these properties on this page!</p>
 <br>
 </p>
 </div>
@@ -33,11 +34,9 @@
     <button onclick="visibility2()">Adding/Changing Colors</button>
     </div>
 <div class="column" id="column2">
-    <h2>Changing Color of text:</h2>
+    <h2>Changing Text and Background Color:</h2>
     <p>
 Programming languages: To change the color of text, you will need to know how to write code in a programming language that supports text formatting. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
-<br><br>
-Text editors: You will need a text editor to write and edit the code that will change the color of text. Some popular text editors include Notepad++, Sublime Text, and Visual Studio Code.
 <br><br>
 Color codes: To change the color of text, you will need to know the hexadecimal or RGB color code for the color you want to use. The hexadecimal code is a six-digit code that represents the red, green, and blue values of a color, while the RGB code represents the red, green, and blue values as integers between 0 and 255.
 <br><br>
@@ -46,24 +45,8 @@ CSS syntax: If you are using CSS to change the color of text, you will need to k
 HTML structure: To change the color of text in HTML, you will need to understand the basic structure of an HTML document and how to add styles to individual elements using inline styles or external style sheets.
 <br>
 </p>
-<h2>Changing Background Color</h2>
- <p>
-Programming languages: To change the background color, you will need to know how to write code in a programming language that supports styles and layout. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
-
-<br><br>
-Text editors: You will need a text editor to write and edit the code that will change the background color. Some popular text editors include Notepad++, Sublime Text, and Visual Studio Code.
-
-<br><br>
-Color codes: To change the background color, you will need to know the hexadecimal or RGB color code for the color you want to use. The hexadecimal code is a six-digit code that represents the red, green, and blue values of a color, while the RGB code represents the red, green, and blue values as integers between 0 and 255.
-
-<br><br>
-CSS syntax: If you are using CSS to change the background color, you will need to know the syntax for defining styles for HTML elements. This includes understanding the selector, property, and value syntax used in CSS.
-
-<br><br>
-HTML structure: To change the background color in HTML, you will need to understand the basic structure of an HTML document and how to add styles to individual elements using inline styles or external style sheets.
-
-<br>
-</p>
+<img src ="images/css1.jpg">
+<img src ="images/css2.jpg">
 <h2>Themes</h2>
 <p>
 1. Create a file called /assets/css/style.scss in your site
@@ -94,6 +77,45 @@ Compression algorithms: There are many compression algorithms available, includi
 Compression formats: Many file formats support compression, such as ZIP, GZIP, and TAR. Each format may use a different algorithm and have different compression and decompression tools available.
 <br><br>
 Performance and trade-offs: The performance of compression algorithms and formats can vary greatly depending on the type of data being compressed, the amount of compression desired, and the resources available for compression and decompression. There are often trade-offs between compression ratio, compression and decompression speed, and resource requirements.
+<br>
+</p>
+<h2>PIL</h2>
+<p>
+Python: PIL is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
+
+<br><br>
+Image processing: PIL provides a range of image processing functions, including resizing, cropping, rotation, and color adjustments. To use PIL effectively, you will need to understand these functions and how to apply them to images.
+
+<br><br>
+Image formats: PIL supports many image formats, including JPEG, PNG, BMP, and GIF. You will need to understand how to load and save images in these formats using PIL.
+
+<br><br>
+Compression formats: Many file formats support compression, such as ZIP, GZIP, and TAR. Each format may use a different algorithm and have different compression and decompression tools available.
+<br><br>
+Image manipulation: PIL provides tools for manipulating images pixel by pixel. To use these tools effectively, you will need to understand image data representation, including color channels, pixel depth, and image dimensions.
+<br><br>
+Image analysis: PIL can also be used for image analysis tasks, such as image segmentation and feature detection. To use PIL for these tasks, you will need to understand image processing algorithms and techniques.
+
+<br>
+</p>
+    <h2>numpy</h2>
+    <p>
+Python: NumPy is a Python library, so you will need to have a basic understanding of Python programming concepts, including syntax, data types, and control structures.
+
+
+<br><br>
+Arrays: NumPy provides powerful tools for working with arrays, including creating arrays, indexing and slicing arrays, and performing operations on arrays.
+
+
+<br><br>
+Data types: NumPy supports a wide range of data types, including integers, floats, and complex numbers, with various precision levels.
+
+
+<br><br>
+Broadcasting: NumPy provides a powerful feature called broadcasting, which allows arrays with different shapes to be combined in arithmetic operations.
+
+<br><br>
+Linear algebra: NumPy includes a range of linear algebra functions, including matrix multiplication, decomposition, and eigenvector calculation.
 <br>
 </p>
 <h2>base 64</h2>
