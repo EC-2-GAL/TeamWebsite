@@ -49,12 +49,12 @@ HTML structure: To change the color of text in HTML, you will need to understand
 <img src ="images/css2.jpg">
 <h2>Themes</h2>
 <p>
-1. Create a file called /assets/css/style.scss in your site
+1. Navigate or create your /assets/css/style.scss in your site
 
 <br><br>
 2. Add the following content to the top of the file, exactly as shown: 
 
-<img src ="images/themecode.png">
+<img src ="images/bigtheme.png">
 
 
 <br><br>
