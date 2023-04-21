@@ -35,7 +35,7 @@
             </tr>
         </table>
         </p>
-        <h3>Functions - JavaScript</h3>
+        <h2>Functions - JavaScript</h2>
         <p>
         <table>
             <tr>
@@ -90,7 +90,7 @@
         </table>
         </p>
         <!-- Add Button -->
-        <h3>Customization - CSS</h3>
+        <h2>Customization - CSS</h2>
         <p>
         <br>
         <table>
@@ -132,4 +132,5 @@
         </table>
         </p>
     </div>
+    </body>
 </html>
