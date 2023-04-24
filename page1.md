@@ -74,8 +74,11 @@
     <div class="column" id="column3">
     <p>
       <h2>Styling Images (No Animation)</h2>
-        rounded corners on images and buttons
-
+        - rounded corners on images and buttons
+        - center
+        - opacity
+        - grayscale
+      <img src ="images/EC2.png" id="EC2">
       <h2>Other Things You Need to Know for the AP Exam</h2>
       <h5>Data Compression</h5>
         <img src ="images/loss.jpg" id="loss">
