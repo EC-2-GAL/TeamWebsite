@@ -5,33 +5,42 @@
   </head>
   <body>
     <br>
-    <h1>Get Started</h1>
-    <p>
-- Clone the template repository “Hacks-Copy” 
-- Have our website open </p>
-    <br>
-    <h1>Questions Page</h1>
-    <p>
-- Answer the questions in the while following the lesson (0.3) 
-- Write about how you plan to use what you learned in this lesson to improve your CPT project (0.1) 
-</p>
-    <h1>Customization 1 and 2</h1>
-<p>
+ <p>
+ <b>Get Started</b>
+<br>
+- Clone the template repository to access the hacks ==> <a href="https://github.com/EC-2-GAL/HACKS-COPY">"Hacks-Copy"</a> 
+<br>
+<br>
+<b>Questions Page</b>
+<br>
+- Answer the 9 questions (3 Qs per section) while following the lesson (0.3) 
+<br>
+- Write about ways you can incorporate what you learned in this lesson to improve your CPT project! (0.1) 
+<br>
+<br>
+<b>Customization 1 and 2 & Bootstrap</b>
+<br>
 - Replicate the screen video using elements from the lesson(0.2)
-- Customize your profile (Picture, Name, Description, GitHub link) (0.2) 
-</p>
-    <h1>JavaScript</h1>
-<p>
+<br>
+- Customize your profile (Picture, Name, Description, GitHub link) (0.2)
+<br> 
+<br>
+<b>JavaScript Snake Game</b>
+<br>
 - Get to a score of AT LEAST 20 apples and take a selfie with your high score! Put this picture in(0.1)
+<br>
 - Customize snake game (Change color of snake/apple) (0.1)
+<br>
+<br>
+<b>Extra Points!</b>
+<br>
+- Add an element of bootstrap to the website (Ex. Carousel)
 </p>
-    <h1>Extra</h1>
-<p>- add bootstrap into the lesson</p>
   </body>
 </html>
 
 
-
+<!-- 
 Get started 
 - Clone the template repository “Hacks-Copy” 
 - Have our website open 
@@ -49,4 +58,4 @@ JavaScript
 - Customize snake game (Change color of snake/apple) (0.1)
 
 EXTRA
-- Add a bootstrap element from the lesson
+- Add a bootstrap element from the lesson -->
