@@ -74,14 +74,20 @@
     <div class="column" id="column3">
     <p>
       <h2>Styling Images (No Animation)</h2>
-        - rounded corners on images and buttons
-        - center
-        - opacity
-        - grayscale
+      <ul>
+        <li>rounded corners on images and buttons</li>
+        <li>center</li>
+        <li>opacity</li>
+        <li>grayscale</li>
+      </ul>
+      <img src ="images/bordrad.jpg">
       <img src ="images/EC2.png" id="EC2">
       <h2>Other Things You Need to Know for the AP Exam</h2>
       <h5>Data Compression</h5>
-        <img src ="images/loss.jpg" id="loss">
+      <a href="https://www.canva.com/design/DAFgrBRoIy8/0N3nUSNywRLzRR53Vl5moQ/view?utm_content=DAFgrBRoIy8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+  <img src="images/loss.jpg" id="loss">
+</a>
+<br>click on image to see full screen
         <br><br>
       <h5>base 64</h5>
         Binary data: Base64 is used to encode binary data, such as images, audio, and video files. You will need to understand how binary data is represented and stored in computing systems.
