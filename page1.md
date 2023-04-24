@@ -105,9 +105,17 @@
         <div class="row">
         <button onclick="visibility4()">Importance of Wireframes</button>
         </div>
-        <div class="column" id="column4">
+
+  <div class="column" id="column4">
         <h2>Properties:</h2>
     <img src ="images/Page1WF.jpg">
+    <p>
+    - allows designers to plan the layout and interaction of an interface without being distracted by colors or other factors of their website. 
+    <br><br>
+    - Wireframes are also useful in determining how the user interacts with the interface (ex: buttons or menu behaviors)
+    <br><br>
+    - keep the concept user-focused, they clarify and define website features, and they are quick and cheap to create
+    </p>
     </div>
     <script>
     var visibility = (function() {
