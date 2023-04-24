@@ -1,10 +1,10 @@
 <!-- for reference: https://www.w3schools.com/css/css3_animations.asp -->
-
 <html>
     <head>
     <link rel="stylesheet" href="page2.css">
     </head>
     <body>
+
     <div class="column">
         <!--Description of what customization 2 might be like and the topics that will be covered-->
         <h1>Customization Lesson 2</h1>

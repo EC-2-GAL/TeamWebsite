@@ -1,64 +1,86 @@
 <!--Start of Website Content-->
+<html>
+    <head>
+    <link rel="stylesheet" href="cu.css">
+    </head>
+    <body>
 <div class="index-header">
     <h1>Selectors</h1>
     <p>Lesson on CSS Selectors</p>
 </div>
 
-<div>
+<div class="column">
 <h1>Basic</h1>
 
 <h2>Universal</h2>
 <p>* -- Selects all Elements</p>
+
 <h2>Type</h2>
 <p>div -- Selects elements of that type</p>
+
 <h2>Class</h2>
 <p>.c -- Selects elements with the class</p>
+
 <h2>Id</h2>
 <p>#i -- Selects elements with the id</p>
+
 </div>
 
-<div>
+<div class="column">
 <h1>Combination</h1>
 
 <h2>Descendant</h2>
 <p>div a -- Select elements that are descendants of the first element</p>
+
 <h2>Direct Child</h2>
 <p>div > a -- Select elements that are direct children of the first element</p>
+
 <h2>General Sibling</h2>
 <p>div ~ a -- Select elements that are siblings of the first element and come after the first element</p>
+
 <h2>Adjacent Sibling</h2>
 <p>div + a -- Select elements that are siblings of the first element and come directly after the first element</p>
+
 <h2>Or</h2>
 <p>div, a -- Select Elements that match any selector in the list</p>
+
 <h2>And</h2>
 <p>div.c -- Select elements that match all the selector combinations</p>
+
 </div>
 
-<div>
+<div class="column">
 <h1>Attribute</h1>
 
 <h2>Has</h2>
 <p>[a] -- Select elements that have that attribute (select with an 'a' attribute)</p>
+
 <h2>Exact</h2>
 <p>[a="1"] -- Select elements that have that attribute with exactly that value (select with 'a' attribute and a value of '1')</p>
+
 <h2>Begins With</h2>
 <p>[a^="1"] -- Select elements that have attribute which starts with that value (select with 'a' attribute and value starting in '1')</p>
+
 <h2>Ends With</h2>
 <p>[a$="1"] -- Select elements that have that attribute which end with that value (select with 'a' attribute and value ending in '1')</p>
+
 <h2>Substring</h2>
 <p>[a*="1"] -- Select elements that have that attribute which contain that value anywhere (select with 'a' attribute with value CONTAINING '1')</p>
+
 </div>
 
-<div>
+<div class="column">
 <h1>Pseudo Element</h1>
 
 <h2>Before</h2>
 <p>div::before -- Creates an empty element directly before the children of selected element</p>
+
 <h2>After</h2>
 <p>div::after -- Creates an empty element directly after the children of selected element </p>
+
 </div>
 
-<div>
+<div class="column">
 <h1>Pseudo Class-State</h1>
 
 <h2>Hover</h2>
@@ -77,7 +99,7 @@
 <p>input:disabled -- Select inputs that are disabled (select inputs with the disabled attribute)</p>
 </div>
 
-<div>
+<div class="column">
 <h1>Pseudo Class-Position</h1>
 
 <h2>First Child</h2>
@@ -114,3 +136,4 @@
 <p>a:not(.c) -- Select all elements that fo not match the selector inside the not selector (select all anchor tags NOT having 'c')</p>
 
 </div>
+</body>
