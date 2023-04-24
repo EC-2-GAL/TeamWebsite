@@ -1,10 +1,13 @@
 html, body {
+  height: 100%;
   }
 body {
   background: linear-gradient(white,#b8b8d1);
   align-items: center;
   justify-content: center;
   height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 canvas {
   background: tan;
@@ -16,7 +19,7 @@ canvas {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  position: fixed;
+  position: absolute;
 }
 :root {
   --apple: blue;
@@ -50,7 +53,7 @@ canvas {
 #btn_stop {
   color:purple;
   position:absolute;
-  bottom: 60px;
+  bottom: 50px;
   right: 43%;
 }
 #end_msg {
@@ -84,6 +87,6 @@ h2 {
 h3, h4 {
   padding: 15px;
 }
-ul {
+table ul {
   padding: 30px;
 }

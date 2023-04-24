@@ -35,7 +35,7 @@
             </tr>
         </table>
         </p>
-        <h3>Functions - JavaScript</h3>
+        <h2>Functions - JavaScript</h2>
         <p>
         <table>
             <tr>
@@ -90,14 +90,47 @@
         </table>
         </p>
         <!-- Add Button -->
-        <h3>Customization - CSS</h3>
+        <h2>Customization - CSS</h2>
         <p>
-        <div>
-        <img src="images/snakelesson4.jpg" style=" width: 600px; text-align: center;" align="center">
-        </div>
-        <div>
-        <img src="images/snakelesson8.jpg" style=" width: 600px; text-align: center;" align="center">
-        </div>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <div>
+                    <img src="images/snakelesson11.jpg" style=" width: 600px; text-align: center;" align="center">
+                    </div>
+                    <div>
+                    <img src="images/snakelesson9.jpg" style=" width: 600px; text-align: center;" align="center">
+                    </div>
+                    <div>
+                    <img src="images/snakelesson8.jpg" style=" width: 400px; text-align: center;" align="center">
+                    </div>
+                </td>
+                <td>
+                    <ul>
+                        <li>First set the variables that you will later reference in your CSS code</li>
+                            <ul>
+                                <li><b>"canvas"</b> represents the screen of the game </li>
+                                <li><b>"context"</b> uses the Canvas API. (You must have a canvas established in the HTML in order to use this.) The call, "getContext()" returns drawing context. The identifier "2d", provides 2d drawing functions. We set this to a variable in order to call it later.</li>
+                                <li><b>"root"</b> calls the :root element from the CSS. This is a method of setting values, such as color, for Javascript elements.</li>
+                            </ul>
+                        <li><b>Drawing cells</b></li>
+                            <ul>
+                                <li>Set apple color to value set in root</li>
+                                <li>Fill the "context" allows you to fill in single cell at a specified color and xy position in the canvas </li>
+                                <li>After drawing the apple cell, you can reassign context to a new color. This way, the snake and apple can be different colors with no interference.</li>
+                                <li>NOTE: The purpose of grid - 1 (grid = 16) is so that the cell does not fill up entire 16 x 16 pixels but 15 x 15 pixels. This is especially useful for the snake where there are multiple cells next to each other and  creates the visual effect of spaces in between each snake's block that allows you to count its length easily</li>
+                            </ul>
+                        <li><b>CSS</b>: assign the colors to the apple and snake through root
+                            <ul>
+                            <li>Declare global CSS variables with --x. You can assign colors, padding, position, size, etc. to variables, and call them throughout your code, including in Javascript.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
         </p>
     </div>
+    </body>
 </html>

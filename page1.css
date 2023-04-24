@@ -33,6 +33,13 @@ h2 {
   border-radius: 80px;
 }
 
+h5 {
+  padding: 5px;
+  color: #6E70AC;
+  border-radius: 80px;
+  font-size: 20px;
+}
+
 h1 {
   color: #6e70ac;
   font-size: 40px;
@@ -54,8 +61,11 @@ img {
   animation-direction: alternate;
 }
 
-.rotate {
-  animation: roll 2s linear infinite;
+#EC2 {
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  filter: grayscale(0%);
 }
 
 button {
@@ -87,3 +97,8 @@ button {
   height: 40px;
 }
 
+#loss {
+  width: 10000px;
+  border-radius: 8px;
+  
+}

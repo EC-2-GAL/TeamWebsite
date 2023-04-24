@@ -13,7 +13,7 @@
     </div>
    <!-- make css for button -->
     <div>
-        <form action="http://127.0.0.1:4000/bootstrap.html">
+        <form action="https://ec-2-gal.github.io/TeamWebsite/bootstrap.html">
             <button type="submit">Click me</button>
         </form>
     </div>
