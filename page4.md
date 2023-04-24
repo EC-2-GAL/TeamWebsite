@@ -27,7 +27,7 @@
 <br>
 <b>JavaScript Snake Game</b>
 <br>
-- Get to a score of AT LEAST 20 apples and take a selfie with your high score! Put this picture in(0.1)
+- Get to a score of AT LEAST 20 apples and take a selfie with your high score! Put this picture in MUST BE A SELFIE FOR FULL POINTS(0.1)
 <br>
 - Customize snake game (Change color of snake/apple) (0.1)
 <br>
