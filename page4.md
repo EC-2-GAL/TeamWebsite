@@ -5,16 +5,48 @@
   </head>
   <body>
     <br>
-    <h1>Hacks for Customization 1 and 2</h1>
+    <h1>Get Started</h1>
     <p>
-     - Clone the template repo given and replicate the screen video of the example using elements from the lesson (.9) <br>
-    - Add an own element from the lesson to make student's repository unique (.9) <br>
-    - EXTRA Make a UI element that was seen on one of the example websites (.2)</p>
+- Clone the template repository “Hacks-Copy” 
+- Have our website open </p>
     <br>
-    <h1>Hacks for JavaScript</h1>
+    <h1>Questions Page</h1>
     <p>
-    - Play the snake game until the score of 10 <br>
-    - Take note on how to customize (make their own step-by-step guide) <br>
-    - EXTRA Play the snake game until 50 and a selfie with your score (NO CHEATING..if we suspect you we will do a live review of your snake playing) </p>
+- Answer the questions in the while following the lesson (0.3) 
+- Write about how you plan to use what you learned in this lesson to improve your CPT project (0.1) 
+</p>
+    <h1>Customization 1 and 2</h1>
+<p>
+- Replicate the screen video using elements from the lesson(0.2)
+- Customize your profile (Picture, Name, Description, GitHub link) (0.2) 
+</p>
+    <h1>JavaScript</h1>
+<p>
+- Get to a score of AT LEAST 20 apples and take a selfie with your high score! Put this picture in(0.1)
+- Customize snake game (Change color of snake/apple) (0.1)
+</p>
+    <h1>Extra</h1>
+<p>- add bootstrap into the lesson</p>
   </body>
 </html>
+
+
+
+Get started 
+- Clone the template repository “Hacks-Copy” 
+- Have our website open 
+
+Questions Page  
+- Answer the questions in the while following the lesson (0.3) 
+- Write about how you plan to use what you learned in this lesson to improve your CPT project (0.1) 
+
+Customization 1 and 2 
+- Replicate the screen video using elements from the lesson(0.2)
+- Customize your profile (Picture, Name, Description, GitHub link) (0.2) 
+
+JavaScript 
+- Get to a score of AT LEAST 20 apples and take a selfie with your high score! Put this picture in(0.1)
+- Customize snake game (Change color of snake/apple) (0.1)
+
+EXTRA
+- Add a bootstrap element from the lesson

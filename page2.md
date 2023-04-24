@@ -41,7 +41,8 @@
         <p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
     </div>
     <div class="column">
-        <h1>HTML, CSS, and JavaScript</h1>
+        <h1>Key Frames</h1>
+        <p>Keyframes are defined using '@keyframes'</p>
     </div>
     <div class="column">
         <h1>Examples of Animations</h1>
