@@ -62,13 +62,17 @@
 <h1>Pseudo Class-State</h1>
 
 <h2>Hover</h2>
-<p>button::hover ---</p>
+<p>button::hover -- Select elements that are hovered by the mouse (select buttons that are being hovered)</p>
+
 <h2>Focus</h2>
-<p>button::focus --</p>
+<p>button::focus -- Select elements that are focused (select buttons that are being focused (can be set by using button or anchor tag)</p>
+
 <h2>Required</h2>
-<p>input:required --</p>
+<p>input:required -- Select inputs that are required (select inputs with the required attribute)</p>
+
 <h2>Checked</h2>
-<p>input:checked -- </p>
+<p>input:checked -- Select checkboxes/radio buttons that are checked (select inputs that are checked)</p>
+
 <h2>Disabled</h2>
 <p>input:disabled -- Select inputs that are disabled (select inputs with the disabled attribute)</p>
 </div>
