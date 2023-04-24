@@ -11,11 +11,6 @@
         <p>In this lesson we will be covering more advanced UI, Animation in code, and using open source CSS frameworks</p>
     </div>
    <!-- make css for button -->
-    <div>
-        <form action="https://ec-2-gal.github.io/TeamWebsite/bootstrap.html">
-            <button type="submit">Click me</button>
-        </form>
-    </div>
     <div class="column">
         <h1>Introduction </h1>
         <br>
@@ -48,6 +43,13 @@
         <br>
         <br>
         <img src="images/taylorswiftimage.png" alt="Taylor Swift" class="image">
+    </div>
+    <div class="column">
+        <h1>Bootstrap</h1>
+        <br>
+        <form action="https://ec-2-gal.github.io/TeamWebsite/bootstrap.html">
+            <button type="submit">Click me</button>
+        </form>
     </div>
 
 </body>
