@@ -42,29 +42,38 @@
     <div class="column" id="column2">
         <h2>Changing Text and Background Color:</h2>
         <p>
-    Programming languages: To change the color of text, you will need to know how to write code in a programming language that supports text formatting. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
+    - The color property defines the foreground color of an HTML element's content and the background-color property defines the element's background color. 
     <br><br>
-    Color codes: To change the color of text, you will need to know the hexadecimal or RGB color code for the color you want to use. The hexadecimal code is a six-digit code that represents the red, green, and blue values of a color, while the RGB code represents the red, green, and blue values as integers between 0 and 255.
+    - Text: color property is used when drawing the text and any text decorations. 
     <br><br>
-    CSS syntax: If you are using CSS to change the color of text, you will need to know the syntax for defining styles for HTML elements. This includes understanding the selector, property, and value syntax used in CSS.
+    - backround-color is the text's backround color.
     <br><br>
-    HTML structure: To change the color of text in HTML, you will need to understand the basic structure of an HTML document and how to add styles to individual elements using inline styles or external style sheets.
+    - text-shadow: configues a shadow effect to apply to text
+    <br><br>
+    - text-decoration-color: By default, text decorations use the color property as their colors. You can override that behavior and use a different color for them with the text-decoration-color property.
+    <br><br>
+    Hex Color Codes: composed of a hashtag and three pairs of characters hat represent the intensity of the three primary colors. 
+    <br><br>
+    - Value Range: 00 (the lowest intensity of a primary color) to FF (the highest intensity of a primary color)
+    <br><br>
+    - Every hex code consists of six characters in total. These six characters can be any combination of ten numerals (0-9) and six letters (a-f) <a href="https://github.com/1908901/elliepang/issues/30">(more combinations)</a><br>
     <br>
     </p>
     <img src ="images/css1.jpg">
     <img src ="images/css2.jpg">
     <h2>Themes</h2>
     <p>
-    1. Create a file called /assets/css/style.scss in your site
+    Theming: gives the users the ability to make customizations to websites and applications.
     <br><br>
-    2. Add the following content to the top of the file, exactly as shown: 
-    <img src ="images/themecode.png">
+     - Clicking a button to change the background of a website to red or black
     <br><br>
-    3. Add any custom CSS (or Sass, including imports) you’d like immediately after the @import line
+     - Increasing or decreasing the font size of a site website/application
     <br><br>
-    Stylesheets: To change the visual appearance of an application or platform, you may need to modify the stylesheets that control the presentation of the user interface elements. This may involve editing existing styles or creating new ones.
+    - Clicking a button to remove content not relevant to the user.
     <br><br>
-    Configuration files: Some applications and platforms may have configuration files that control the behavior and appearance of the application. To change the theme, you may need to modify these configuration files.
+    - fonts, font size, color schemes, layouts, asthetics, ect.
+    <br><br>
+    Theme Properties: a set of CSS custom properties that make up a theme. <a href="https://github.com/1908901/elliepang/issues/30">example</a><br>
     <br>
     </p>
     </div>
