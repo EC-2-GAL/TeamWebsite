@@ -68,7 +68,7 @@
 <h2>Required</h2>
 <p>input:required --</p>
 <h2>Checked</h2>
-<p>input:checked --</p>
+<p>input:checked -- </p>
 <h2>Disabled</h2>
 <p>input:disabled -- Select inputs that are disabled (select inputs with the disabled attribute)</p>
 </div>
