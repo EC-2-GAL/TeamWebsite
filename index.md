@@ -51,9 +51,9 @@
     </div>
 </div>
 </section>
-
+<!-- 
 <section class="about">
-    <h1>OUR MISSION</h1>
-    <p>description of the project and short (very short) description of what they will learn</p>
+    <h3>OUR MISSION</h3>
+    <p>Learning how to customize your website/game </p> -->
 
-</section>
+<!-- </section> -->
