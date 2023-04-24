@@ -27,49 +27,6 @@
 </div>
 
 <div class="column">
-<h1>Combination</h1>
-
-<h2>Descendant</h2>
-<p>div a -- Select elements that are descendants of the first element</p>
-
-<h2>Direct Child</h2>
-<p>div > a -- Select elements that are direct children of the first element</p>
-
-<h2>General Sibling</h2>
-<p>div ~ a -- Select elements that are siblings of the first element and come after the first element</p>
-
-<h2>Adjacent Sibling</h2>
-<p>div + a -- Select elements that are siblings of the first element and come directly after the first element</p>
-
-<h2>Or</h2>
-<p>div, a -- Select Elements that match any selector in the list</p>
-
-<h2>And</h2>
-<p>div.c -- Select elements that match all the selector combinations</p>
-
-</div>
-
-<div class="column">
-<h1>Attribute</h1>
-
-<h2>Has</h2>
-<p>[a] -- Select elements that have that attribute (select with an 'a' attribute)</p>
-
-<h2>Exact</h2>
-<p>[a="1"] -- Select elements that have that attribute with exactly that value (select with 'a' attribute and a value of '1')</p>
-
-<h2>Begins With</h2>
-<p>[a^="1"] -- Select elements that have attribute which starts with that value (select with 'a' attribute and value starting in '1')</p>
-
-<h2>Ends With</h2>
-<p>[a$="1"] -- Select elements that have that attribute which end with that value (select with 'a' attribute and value ending in '1')</p>
-
-<h2>Substring</h2>
-<p>[a*="1"] -- Select elements that have that attribute which contain that value anywhere (select with 'a' attribute with value CONTAINING '1')</p>
-
-</div>
-
-<div class="column">
 <h1>Pseudo Element</h1>
 
 <h2>Before</h2>

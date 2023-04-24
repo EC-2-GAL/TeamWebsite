@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="page2.css">
     </head>
     <body>
-
     <div class="column">
         <!--Description of what customization 2 might be like and the topics that will be covered-->
         <h1>Customization Lesson 2</h1>
@@ -39,10 +38,6 @@
     <div class="column">
         <h1>Animations Through Code</h1>
         <p>Now that we analyzed some of the elements of UI, lets go over animation in code.</p>
-    </div>
-    <div class="column">
-        <h1>Key Frames</h1>
-        <p>Keyframes are defined using '@keyframes'</p>
     </div>
     <div class="column">
         <h1>Examples of Animations</h1>
