@@ -5,7 +5,7 @@
   </head>
   <body>
     <button id="dark" onclick="darkMode()">Dark Mode</button>
-    <h3><img id= "rotate" src ="images/fav.png"></h3>
+    <h3><img id= "EC2" src ="images/fav.png"></h3>
     <h4><i class="material-icons">favorite</i>click on each topic to learn more!<i class="material-icons">favorite</i></h4>
         <div class="row">
         <button onclick="visibility()">Basic User Interface (UI) Properties</button>
@@ -13,50 +13,13 @@
         <div class="column" id="column1">
         <h2>Properties:</h2>
     <p>
-<<<<<<< HEAD
-Programming languages: To change the color of text, you will need to know how to write code in a programming language that supports text formatting. Some common programming languages that support this include HTML, CSS, JavaScript, and Python.
-<br><br>
-Color codes: To change the color of text, you will need to know the hexadecimal or RGB color code for the color you want to use. The hexadecimal code is a six-digit code that represents the red, green, and blue values of a color, while the RGB code represents the red, green, and blue values as integers between 0 and 255.
-<br><br>
-CSS syntax: If you are using CSS to change the color of text, you will need to know the syntax for defining styles for HTML elements. This includes understanding the selector, property, and value syntax used in CSS.
-<br><br>
-HTML structure: To change the color of text in HTML, you will need to understand the basic structure of an HTML document and how to add styles to individual elements using inline styles or external style sheets.
-<br>
-</p>
-<img src ="images/css1.jpg">
-<img src ="images/css2.jpg">
-<h2>Themes</h2>
-<p>
-1. Navigate or create your /assets/css/style.scss in your site
-
-<br><br>
-2. Add the following content to the top of the file, exactly as shown: 
-
-<img src ="images/bigtheme.png">
-
-
-<br><br>
-3. Add any custom CSS (or Sass, including imports) you’d like immediately after the @import line
-<br><br>
-Stylesheets: To change the visual appearance of an application or platform, you may need to modify the stylesheets that control the presentation of the user interface elements. This may involve editing existing styles or creating new ones.
-<br><br>
-Configuration files: Some applications and platforms may have configuration files that control the behavior and appearance of the application. To change the theme, you may need to modify these configuration files.
-<br>
-</p>
-</div>
-  <div class="row">
-<button onclick="visibility3()">Images</button>
-</div>
-<div class="column" id="column3">
-    <h2>Data Compression</h2>
-=======
         <ul>
           <li>Color: This refers to the hue, saturation, and brightness of the UI elements such as background, text, buttons, etc.</li>
-            <p>Resources: https://htmlcolorcodes.com/</p>
+            <a href="https://htmlcolorcodes.com/">HTML Color Codes</a><br>
             <img src ="images/css4.jpg">
             <br><br>
           <li>Font: This refers to the typeface, size, weight, and style of the text displayed on the UI.</li>
-            <p>Resources: https://www.w3schools.com/css/css_font.asp</p>
+            <a href="https://www.w3schools.com/css/css_font.asp">HTML Fonts</a><br>
             <img src ="images/css3.jpg">
             <br><br>
           <li>Layout: This refers to the arrangement and positioning of UI elements such as buttons, text boxes, images, etc</li>
@@ -91,7 +54,6 @@ Configuration files: Some applications and platforms may have configuration file
     <img src ="images/css1.jpg">
     <img src ="images/css2.jpg">
     <h2>Themes</h2>
->>>>>>> 9c445f74c44a89447c87af5d54093e304bda5c58
     <p>
     1. Create a file called /assets/css/style.scss in your site
     <br><br>
@@ -112,10 +74,11 @@ Configuration files: Some applications and platforms may have configuration file
     <div class="column" id="column3">
     <p>
       <h2>Styling Images (No Animation)</h2>
-        in
+        rounded corners on images and buttons
+
       <h2>Other Things You Need to Know for the AP Exam</h2>
       <h5>Data Compression</h5>
-        <img src ="images/loss.jpg">
+        <img src ="images/loss.jpg" id="loss">
         <br><br>
       <h5>base 64</h5>
         Binary data: Base64 is used to encode binary data, such as images, audio, and video files. You will need to understand how binary data is represented and stored in computing systems.
