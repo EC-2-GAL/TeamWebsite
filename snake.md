@@ -12,7 +12,6 @@
 <p id="high"></p>
 <button id="btn_stop" >Stop Snake Game</button>
 <p id="end_msg"></p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
