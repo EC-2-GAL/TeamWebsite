@@ -15,12 +15,12 @@
 <br>
 - Answer the 9 questions (3 Qs per section) while following the lesson (0.3) 
 <br>
-- Write about ways you can incorporate what you learned in this lesson to improve your CPT project! (0.1) 
+- Write about ways you can incorporate what you learned in this lesson to improve your CPT project! (0.2) 
 <br>
 <br>
 <b>Customization 1 and 2 & Bootstrap</b>
 <br>
-- Replicate the screen video using elements from the lesson(0.2)
+
 <br>
 - Customize your profile (Picture, Name, Description, GitHub link) (0.2)
 <br> 
