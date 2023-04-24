@@ -50,8 +50,8 @@
   <h1>Key Components of Bootstrap</h1>
 </div>
 
-<div>
-  <a href="https://www.w3schools.com/bootstrap5/" class="btn btn-info" role="button">Link Button</a>
+<div class="container">
+  <a href="https://www.w3schools.com/bootstrap5/" class="btn btn-info" role="button">Link to Bootstrap Elements</a>
 </div>
 
 <div class="container">
