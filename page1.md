@@ -114,7 +114,7 @@
     <br><br>
     - Wireframes are also useful in determining how the user interacts with the interface (ex: buttons or menu behaviors)
     <br><br>
-    - keep the concept user-focused, they clarify and define website features, and they are quick and cheap to create
+    - keep the concept user-focused, they clarify and define website features, and they are quick to create
     </p>
     </div>
     <script>
